@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffb1986c.css",
-    "main.js": "/static/js/main.c6850fbb.js",
+    "main.css": "/static/css/main.bae9dbaf.css",
+    "main.js": "/static/js/main.cdf7000f.js",
     "static/media/misa (6).jpg": "/static/media/misa (6).752d976d1bba75a55dd1.jpg",
     "static/media/futsal.jpg": "/static/media/futsal.e9dc3051a549658f480a.jpg",
     "static/media/short_movie.jpg": "/static/media/short_movie.87b53f06a1efe9d0e25d.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.png": "/static/media/logo.218babb1c976853ed869.png",
     "static/media/blind_date.png": "/static/media/blind_date.9ae20e60b752fceba7b9.png",
     "index.html": "/index.html",
-    "main.ffb1986c.css.map": "/static/css/main.ffb1986c.css.map",
-    "main.c6850fbb.js.map": "/static/js/main.c6850fbb.js.map"
+    "main.bae9dbaf.css.map": "/static/css/main.bae9dbaf.css.map",
+    "main.cdf7000f.js.map": "/static/js/main.cdf7000f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffb1986c.css",
-    "static/js/main.c6850fbb.js"
+    "static/css/main.bae9dbaf.css",
+    "static/js/main.cdf7000f.js"
   ]
 }
