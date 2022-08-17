@@ -21,9 +21,8 @@
   font-size: 2rem;
 }
 .footer a:hover {
-  /* color: var(--clr); */
   background: transparent;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 
 .footer .contact-info a {
@@ -33,6 +32,34 @@
 .footer .contact-info i {
   font-size: 2rem;
   margin-right: 1rem;
+}
+
+.footer .instagram:hover {
+  color: #dd2a7b;
+}
+
+.footer .twitter:hover {
+  color: #1da1f2;
+}
+
+.footer .tiktok:hover {
+  color: #000;
+  text-shadow: -2px -2px 2px rgba(0, 242, 234, 0.5), 2px 2px 2px rgba(255, 0, 80, 0.5);
+}
+
+.footer .youtube:hover {
+  color: #f00;
+  text-shadow: 0 0 40px rgba(255, 0, 0, 0.5);
+}
+
+.footer .whatsapp:hover {
+  color: #25d366;
+  text-shadow: 0 0 40px rgba(255, 0, 0, 0.5);
+}
+
+.footer .email:hover {
+  color: #ff1414;
+  text-shadow: 0 0 40px rgba(255, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {

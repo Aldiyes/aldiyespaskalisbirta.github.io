@@ -14,7 +14,7 @@ function NavigationBar() {
           <i className="bi bi-list text-light"></i>
         </button>
 
-        <div className="offcanvas offcanvas-md offcanvas-bottom" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+        <div className="offcanvas offcanvas-md offcanvas-bottom" tabIndex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
           <div className="offcanvas-header">
             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
           </div>
