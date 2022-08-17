@@ -1,0 +1,104 @@
+.filosofi .col {
+  margin-top: 3rem;
+}
+
+.filosofi .border-animation {
+  width: 21rem;
+  height: 21rem;
+  border-radius: 50%;
+}
+
+.filosofi .border-animation .inset {
+  inset: 2px;
+  border-radius: 50%;
+  background: #0d112d;
+  z-index: 10;
+}
+
+.filosofi .border-animation::after {
+  width: 20rem;
+  height: 20rem;
+}
+.filosofi .border-animation::before {
+  width: 20rem;
+  height: 20rem;
+}
+
+.filosofi .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+.filosofi .image img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-top: -0.5rem;
+}
+
+@media (min-width: 768px) {
+  .filosofi .border-animation {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+  }
+
+  .filosofi .border-animation .inset {
+    inset: 3px;
+    border-radius: 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .filosofi .border-animation::after,
+  .filosofi .border-animation::before {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .filosofi .image {
+    z-index: 10;
+    border-radius: 50%;
+  }
+  .filosofi .image img {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+    margin-top: -0.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .filosofi .border-animation {
+    width: 31rem;
+    height: 31rem;
+    border-radius: 50%;
+  }
+
+  .filosofi .border-animation .inset {
+    inset: 3px;
+    border-radius: 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .filosofi .border-animation::before,
+  .filosofi .border-animation::after {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .filosofi .image {
+    width: 100%;
+    height: 100%;
+  }
+  .filosofi .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}

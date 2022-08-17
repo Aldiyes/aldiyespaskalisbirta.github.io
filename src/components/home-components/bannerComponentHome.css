@@ -1,8 +1,7 @@
 section.banner {
-  /* margin: 0; */
-  padding: 0;
-  /* background: green; */
+  padding-top: 5rem;
 }
+
 .banner img {
   width: 90%;
 }
@@ -67,6 +66,10 @@ section.banner {
 }
 
 @media (min-width: 768px) {
+  section.banner {
+    padding-top: 0rem;
+  }
+
   .banner .container {
     min-height: 90vh;
   }
@@ -77,6 +80,9 @@ section.banner {
 }
 
 @media (min-width: 992px) {
+  section.banner {
+    padding-top: 0rem;
+  }
   .banner .text-box h1 {
     font-size: 8rem;
   }

@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navigationBar.css";
 
+var lastScrollTop = 0;
+
 function NavigationBar() {
+  const [show, setShow] = useState(true);
+
+  const controlNavbar = () => {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+    lastScrollTop = scrollTop;
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  });
+
   return (
-    <header className="navbar navbar-expand-md fixed-top" id="navbar">
+    <header className={`navbar navbar-expand-md fixed-top ${show ? "active" : ""}`} id="navbar">
       <nav className="container container-md px-md-5 px-3">
         <div className="border-animation">
           <span className="inset"></span>

@@ -1,7 +1,11 @@
 .navbar {
   background: linear-gradient(to right, #0d112d, #181130, #241032);
-  transition: 0.5s;
-  top: 0;
+  transition: 0.8s;
+  /* transform: translateY(-68px); */
+}
+
+.navbar.active {
+  /* transform: translateY(0px); */
 }
 /* =================== navbar border animation =================== */
 .navbar .border-animation {
@@ -60,6 +64,18 @@
   height: 30%;
   border-radius: 20px;
   right: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    /* background: linear-gradient(to right, #0d112d, #181130, #241032); */
+    transition: 0.8s;
+    transform: translateY(-68px);
+  }
+
+  .navbar.active {
+    transform: translateY(0px);
+  }
 }
 
 @media (min-width: 992px) {

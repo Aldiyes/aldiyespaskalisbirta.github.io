@@ -1,0 +1,94 @@
+.definisi .col {
+  margin-top: 3rem;
+}
+.definisi .border-animation {
+  width: 23rem;
+  height: 16rem;
+  border-radius: 0 50% 0 50%;
+}
+
+.definisi .border-animation .inset {
+  inset: 4px;
+  border-radius: 0 50% 0 50%;
+  background: #0d112d;
+  z-index: 10;
+}
+
+.definisi .border-animation::after {
+  width: 20rem;
+  height: 20rem;
+}
+.definisi .border-animation::before {
+  width: 20rem;
+  height: 20rem;
+}
+
+.definisi .image {
+  z-index: 10;
+  border-radius: 0 50% 0 50%;
+}
+.definisi .image img {
+  width: 22rem;
+  height: 15rem;
+  border-radius: 0 50% 0 50%;
+}
+
+@media (min-width: 768px) {
+  .definisi .border-animation {
+    height: 17rem;
+    border-radius: 0 50% 0 50%;
+  }
+
+  .definisi .border-animation .inset {
+    inset: 3px;
+    border-radius: 0 50% 0 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .definisi .border-animation::after,
+  .definisi .border-animation::before {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .definisi .image {
+    z-index: 10;
+    border-radius: 0 50% 0 50%;
+  }
+  .definisi .image img {
+    width: 25rem;
+    height: 16rem;
+    border-radius: 0 50% 0 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .definisi .border-animation {
+    width: 31rem;
+    height: 21rem;
+    border-radius: 0 50% 0 50%;
+  }
+
+  .definisi .border-animation .inset {
+    inset: 3px;
+    border-radius: 0 50% 0 50%;
+    background: #0d112d;
+    z-index: 10;
+  }
+
+  .definisi .border-animation::after {
+    width: 50rem;
+    height: 50rem;
+  }
+  .definisi .border-animation::before {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .definisi .image img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 0 50% 0 50%;
+  }
+}

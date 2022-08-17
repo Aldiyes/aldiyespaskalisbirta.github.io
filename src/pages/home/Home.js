@@ -1,5 +1,6 @@
 import React from "react";
 
+// components
 import BannerComponentHome from "../../components/home-components/BannerComponentHome";
 import AboutComponentHome from "../../components/home-components/AboutComponentHome";
 import MainActivityComponentHome from "../../components/home-components/MainActivityComponentHome";
