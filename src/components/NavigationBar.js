@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 function NavigationBar() {
+  let navigate = useNavigate();
   return (
     <header className="navbar navbar-expand-md fixed-top" id="navbar">
       <nav className="container container-md px-md-5 px-3">
@@ -18,13 +21,13 @@ function NavigationBar() {
           </div>
           <div className="offcanvas-body">
             <div className="navbar-nav text-center ms-auto">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" onClick={() => navigate("/")}>
                 Home
               </Link>
-              <Link className="nav-link" to="/about/">
+              <Link className="nav-link" onClick={() => navigate("/about")}>
                 About
               </Link>
-              <Link className="nav-link" to="/main-activity/">
+              <Link className="nav-link" onClick={() => navigate("/main-activity")}>
                 Main Activity
               </Link>
             </div>
