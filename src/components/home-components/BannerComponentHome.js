@@ -1,7 +1,7 @@
 import React from "react";
 import "./bannerComponentHome.css";
 import Logo from "../../images/logo.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function BannerComponentHome() {
   return (
     <section className="banner" id="banner">
@@ -15,7 +15,7 @@ function BannerComponentHome() {
             <h2 className="title-banner">2022</h2>
             <div className="scroll-down d-flex flex-column mt-1">
               <i className="bi bi-mouse2"></i>
-              <Link to="#about">Scroll Down</Link>
+              <a href="#about">Scroll Down</a>
               <i className="bi bi-chevron-down arrow-down"></i>
             </div>
           </div>

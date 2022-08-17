@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useNavigate } from "react-router-dom";
+import "./navigationBar.css";
+import "../../src/index.css";
 
 function NavigationBar() {
-  // let navigate = useNavigate();
   return (
     <header className="navbar navbar-expand-md fixed-top" id="navbar">
       <nav className="container container-md px-md-5 px-3">

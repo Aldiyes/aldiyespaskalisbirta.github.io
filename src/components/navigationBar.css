@@ -1,0 +1,61 @@
+.navbar {
+  background: linear-gradient(to right, #0d112d, #181130, #241032);
+  transition: 0.5s;
+}
+/* =================== navbar border animation =================== */
+.navbar .border-animation {
+  width: 15rem;
+  height: 3rem;
+}
+
+.navbar .border-animation::after {
+  width: 25rem;
+  height: 25rem;
+}
+.navbar .border-animation::before {
+  width: 25rem;
+  height: 25rem;
+}
+/* =================== end navbar border animation =================== */
+
+.navbar .container .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+.navbar .container .navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar .container .navbar-toggler i {
+  color: #fff;
+  font-size: 1.8em;
+}
+
+.navbar .nav-link {
+  color: #b7b7b7;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #fff;
+  border-bottom: 3px solid #b205b5;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+}
+
+.navbar .offcanvas {
+  background: linear-gradient(to right, #0d112d, #181130, #241032);
+  height: 30%;
+  border-radius: 20px;
+  right: 0;
+}
