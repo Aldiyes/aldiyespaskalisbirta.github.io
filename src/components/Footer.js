@@ -63,7 +63,7 @@ function Footer() {
                 <span>0822-5522-4387</span>
               </a>
 
-              <a href="mailhref:itdaysusd2022@gmail.com" className="list-group-item email" target="_blank" rel="noreferrer">
+              <a href="mailto:itdaysusd2022@gmail.com" className="list-group-item email" target="_blank" rel="noreferrer">
                 <i className="bi bi-envelope"></i>
                 <span>itdaysusd2022@gmail.com</span>
               </a>
