@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef97f6af.css",
-    "main.js": "/static/js/main.5fe0336d.js",
+    "main.js": "/static/js/main.e9ff5976.js",
     "static/media/misa (6).jpg": "/static/media/misa (6).752d976d1bba75a55dd1.jpg",
     "static/media/futsal.jpg": "/static/media/futsal.e9dc3051a549658f480a.jpg",
     "static/media/short_movie.jpg": "/static/media/short_movie.87b53f06a1efe9d0e25d.jpg",
@@ -14,10 +14,10 @@
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "index.html": "/index.html",
     "main.ef97f6af.css.map": "/static/css/main.ef97f6af.css.map",
-    "main.5fe0336d.js.map": "/static/js/main.5fe0336d.js.map"
+    "main.e9ff5976.js.map": "/static/js/main.e9ff5976.js.map"
   },
   "entrypoints": [
     "static/css/main.ef97f6af.css",
-    "static/js/main.5fe0336d.js"
+    "static/js/main.e9ff5976.js"
   ]
 }
