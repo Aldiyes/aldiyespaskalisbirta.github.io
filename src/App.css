@@ -204,42 +204,6 @@ main {
                         FOOTER
 /* ================================================ */
 
-.footer .footer-title {
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.footer .list-group {
-  width: 100%;
-  justify-content: center;
-}
-
-.footer .list-group-item {
-  background: transparent;
-  border: none;
-  width: 100%;
-}
-.footer a {
-  color: rgb(174, 174, 174);
-}
-.footer .list-group-horizontal a {
-  font-size: 2rem;
-}
-.footer a:hover {
-  /* color: var(--clr); */
-  background: transparent;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
-}
-
-.footer .contact-info a {
-  display: flex;
-  align-items: center;
-}
-.footer .contact-info i {
-  font-size: 2rem;
-  margin-right: 1rem;
-}
 /* ================================================= 
                      END FOOTER
 /* ================================================ */
@@ -263,13 +227,6 @@ main {
     font-size: 2rem;
   }
 
-  .footer .quick-links {
-    padding-left: 3rem;
-  }
-
-  .footer .contact-info .list-group {
-    margin-left: -1.5rem;
-  }
   /* ================================================= 
                     END FOOTER 768PX
 /* ================================================ */
@@ -307,9 +264,7 @@ main {
   /* ================================================= 
                       NAVBAR 992PX
 /* ================================================ */
-  .navbar .nav-link {
-    text-transform: uppercase;
-  }
+
   /* ================================================= 
                     END NAVBAR 992PX
 /* ================================================ */
@@ -317,9 +272,7 @@ main {
   /* ================================================= 
                      FOOTER 992PX
 /* ================================================ */
-  .footer .quick-links {
-    padding-left: 7rem;
-  }
+
   /* ================================================= 
                     END FOOTER 992PX
 /* ================================================ */

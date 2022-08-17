@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import MainActivity from "./pages/activity/MainActivity";
 import Footer from "./components/Footer";
-
+import "./App.css";
 function App() {
   return (
     <Router>

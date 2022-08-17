@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navigationBar.css";
-import "../../src/index.css";
 
 function NavigationBar() {
   return (
@@ -21,15 +20,15 @@ function NavigationBar() {
           </div>
           <div className="offcanvas-body">
             <div className="navbar-nav text-center ms-auto">
-              <Link className="nav-link" to="/">
+              <NavLink className="nav-link" to="/">
                 Home
-              </Link>
-              <Link className="nav-link" to="/about">
+              </NavLink>
+              <NavLink className="nav-link" to="/about">
                 About
-              </Link>
-              <Link className="nav-link" to="/main-activity">
+              </NavLink>
+              <NavLink className="nav-link" to="/main-activity">
                 Main Activity
-              </Link>
+              </NavLink>
             </div>
           </div>
         </div>

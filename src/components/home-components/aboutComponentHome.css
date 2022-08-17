@@ -1,3 +1,6 @@
+.about {
+  padding-top: 8rem;
+}
 .about .container {
   display: flex;
   justify-content: center;

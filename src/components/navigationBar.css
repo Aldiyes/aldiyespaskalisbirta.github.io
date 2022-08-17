@@ -1,6 +1,7 @@
 .navbar {
   background: linear-gradient(to right, #0d112d, #181130, #241032);
   transition: 0.5s;
+  top: 0;
 }
 /* =================== navbar border animation =================== */
 .navbar .border-animation {
@@ -43,14 +44,15 @@
   margin: 0 10px;
 }
 
-.navbar .nav-link.active,
+.nav-link.active,
 .navbar .nav-link:hover {
   color: #fff;
   border-bottom: 3px solid #b205b5;
 }
 
-.navbar .nav-link.active {
+.nav-link.active {
   font-weight: 600;
+  color: #fff !important;
 }
 
 .navbar .offcanvas {
@@ -58,4 +60,10 @@
   height: 30%;
   border-radius: 20px;
   right: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-link {
+    text-transform: uppercase;
+  }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./bannerComponentHome.css";
 import Logo from "../../images/logo.png";
-// import { Link } from "react-router-dom";
+
 function BannerComponentHome() {
   return (
     <section className="banner" id="banner">
