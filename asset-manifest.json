@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ea2b91b.css",
-    "main.js": "/static/js/main.6a8e666a.js",
+    "main.css": "/static/css/main.410b70c8.css",
+    "main.js": "/static/js/main.c5106262.js",
     "static/media/misa (6).jpg": "/static/media/misa (6).752d976d1bba75a55dd1.jpg",
     "static/media/futsal.jpg": "/static/media/futsal.e9dc3051a549658f480a.jpg",
     "static/media/short_movie.jpg": "/static/media/short_movie.87b53f06a1efe9d0e25d.jpg",
@@ -9,13 +9,15 @@
     "static/media/webinar (5).jpg": "/static/media/webinar (5).1c23eed6727c27a8822e.jpg",
     "static/media/band_akustik.jpg": "/static/media/band_akustik.25fb7b161f98d3c8df30.jpg",
     "static/media/logo.png": "/static/media/logo.218babb1c976853ed869.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/blind_date.png": "/static/media/blind_date.9ae20e60b752fceba7b9.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "index.html": "/index.html",
-    "main.9ea2b91b.css.map": "/static/css/main.9ea2b91b.css.map",
-    "main.6a8e666a.js.map": "/static/js/main.6a8e666a.js.map"
+    "main.410b70c8.css.map": "/static/css/main.410b70c8.css.map",
+    "main.c5106262.js.map": "/static/js/main.c5106262.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ea2b91b.css",
-    "static/js/main.6a8e666a.js"
+    "static/css/main.410b70c8.css",
+    "static/js/main.c5106262.js"
   ]
 }
