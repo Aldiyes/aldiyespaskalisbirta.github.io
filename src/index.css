@@ -2,7 +2,6 @@
 * Copyright 2011-2020 The Bootstrap Authors
 * Copyright 2011-2020 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -65,7 +64,6 @@ body {
   color: #212529;
   text-align: left;
   background: linear-gradient(to bottom right, #07122c, #211032, #330b2f);
-  min-height: 100vh;
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;

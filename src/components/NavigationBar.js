@@ -1,37 +1,38 @@
 import React from "react";
-import "../index.css";
-const NavigationBar = () => {
+
+function NavigationBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
-      <div className="container-lg">
-        <a className="navbar-brand" href="/">
-          Navbar
-        </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+    <header class="navbar navbar-expand-md fixed-top" id="navbar">
+      <nav class="container container-md px-md-5 px-3">
+        <div class="border-animation">
+          <span class="inset"></span>
+          <span class="navbar-brand p-relative ps-3">IT DAYS 2022</span>
+        </div>
+        <button class="navbar-toggler float-md-end d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+          <i class="bi bi-list text-light"></i>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+
+        <div class="offcanvas offcanvas-md offcanvas-bottom" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav text-center ms-auto">
+              <a class="nav-link" href="/">
                 Home
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">
+              <a class="nav-link" href="/about/">
                 About
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/main-activity">
+              <a class="nav-link" href="/main-activity/">
                 Main Activity
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
-};
+}
 
 export default NavigationBar;

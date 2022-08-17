@@ -1,38 +1,384 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600;700&display=swap");
+
+/* ================================================= 
+                        GENERAL STYLE 
+/* ================================================ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: linear-gradient(to bottom right, #07122c, #211032, #330b2f);
+}
+section {
+  padding: 5rem 0;
+  margin: 5rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  margin-top: 0;
+  padding-top: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ================================================= 
+                  BORDER ANIMATION 
+/* ================================================ */
+.border-animation {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #0d112d;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.border-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(transparent, transparent, transparent, #4006ec);
+  animation: border-animation 4s linear infinite;
+  animation-delay: -2s;
+}
+.border-animation::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(transparent, transparent, transparent, #ea2cff);
+  animation: border-animation 4s linear infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
+@keyframes border-animation {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
+
+.border-animation .inset {
+  position: absolute;
+  inset: 3px;
+  border-radius: 6px;
+  background: #0d112d;
+  z-index: 10;
+}
+
+/* ================================================= 
+                END BORDER ANIMATION
+/* ================================================ */
+
+/* ================================================= 
+                 BUTTON SEE MORE
+/* ================================================ */
+.btn-see-more {
+  width: 10rem;
+  height: 3rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: linear-gradient(to bottom right, #081e52, #211032, #4b0d45);
+}
+
+.btn-see-more a {
+  text-decoration: none;
+  width: 100%;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-see-more:hover {
+  box-shadow: 0 0 30px #1e3a9580;
+}
+
+/* ================================================= 
+                 END BUTTON SEE MORE
+/* ================================================ */
+
+.title {
+  font-family: "Mali", cursive;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 5px 3px 5px rgba(118, 137, 247, 0.5);
+}
+
+.title-desc {
+  font-size: 2rem;
+}
+
+.description {
+  font-family: "Mali", cursive;
+  text-align: justify;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.carousel-inner::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* ================================================= 
+                    BUTTON GO UP
+/* ================================================ */
+.go-up {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  bottom: 3rem;
+  right: 2rem;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  transition: all 0.5s;
+  display: none;
+  position: fixed;
+}
+
+.go-up:hover {
+  opacity: 1;
+}
+.go-up i {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+}
+.go-up.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================================================= 
+                    END BUTTON GO UP 
+/* ================================================ */
+
+/* ================================================= 
+                    END GENERAL STYLE 
+/* ================================================ */
+
+/* ================================================= 
+                        NAVBAR
+/* ================================================ */
+
+.navbar {
+  background: linear-gradient(to right, #0d112d, #181130, #241032);
+  transition: 0.5s;
+}
+/* =================== navbar border animation =================== */
+.navbar .border-animation {
+  width: 15rem;
+  height: 3rem;
+}
+
+.navbar .border-animation::after {
+  width: 25rem;
+  height: 25rem;
+}
+.navbar .border-animation::before {
+  width: 25rem;
+  height: 25rem;
+}
+/* =================== end navbar border animation =================== */
+
+.navbar .container .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+.navbar .container .navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar .container .navbar-toggler i {
+  color: #fff;
+  font-size: 1.8em;
+}
+
+.navbar .nav-link {
+  color: #b7b7b7;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0 10px;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #fff;
+  border-bottom: 3px solid #b205b5;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+}
+
+.navbar .offcanvas {
+  background: linear-gradient(to right, #0d112d, #181130, #241032);
+  height: 30%;
+  border-radius: 20px;
+  right: 0;
+}
+/* ================================================= 
+                     END NAVBAR 
+/* ================================================ */
+
+/* ================================================= 
+                       SECTION 
+/* ================================================ */
+
+/* ================================================= 
+                     END SECTION
+/* ================================================ */
+
+/* ================================================= 
+                        FOOTER
+/* ================================================ */
+
+.footer .footer-title {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer .list-group {
+  width: 100%;
+  justify-content: center;
+}
+
+.footer .list-group-item {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+.footer a {
+  color: rgb(174, 174, 174);
+}
+.footer .list-group-horizontal a {
+  font-size: 2rem;
+}
+.footer a:hover {
+  color: var(--clr);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.footer .contact-info a {
+  display: flex;
+  align-items: center;
+}
+.footer .contact-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+/* ================================================= 
+                     END FOOTER
+/* ================================================ */
+
+/* ================================================= 
+                DISPLAY FOR 768 TABLET
+/* ================================================ */
+@media (min-width: 768px) {
+  /* ================================================= 
+                    GENERAL STYLE
+/* ================================================ */
+  section {
+    margin: 3rem 0;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .title-desc {
+    font-size: 2rem;
+  }
+
+  .footer .quick-links {
+    padding-left: 3rem;
+  }
+
+  .footer .contact-info .list-group {
+    margin-left: -1.5rem;
+  }
+  /* ================================================= 
+                    END FOOTER 768PX
+/* ================================================ */
+}
+/* ================================================= 
+               END DISPLAY FOR 768 TABLET
+/* ================================================ */
+
+/* ================================================= 
+                DISPLAY FOR 992 LAPTOP
+/* ================================================ */
+@media (min-width: 992px) {
+  .title-desc {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-family: "Mali", cursive;
+    text-align: justify;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /* ================================================= 
+                BUTTON SEE MORE 992PX
+/* ================================================ */
+
+  .btn-see-more {
+    width: 10rem;
+    height: 2.5rem;
+  }
+  /* ================================================= 
+               END BUTTON SEE MORE 992PX
+/* ================================================ */
+  /* ================================================= 
+                      NAVBAR 992PX
+/* ================================================ */
+  .navbar .nav-link {
+    text-transform: uppercase;
+  }
+  /* ================================================= 
+                    END NAVBAR 992PX
+/* ================================================ */
+
+  /* ================================================= 
+                     FOOTER 992PX
+/* ================================================ */
+  .footer .quick-links {
+    padding-left: 7rem;
+  }
+  /* ================================================= 
+                    END FOOTER 992PX
+/* ================================================ */
+}
+/* ================================================= 
+                END DISPLAY 768PX LAPTOP
+/* ================================================ */

@@ -1,12 +1,11 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavigationBar from "./components/NavigationBar";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import MainActivity from "./pages/mainActivity/MainActivity";
+import MainActivity from "./pages/activity/MainActivity";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <Router>
