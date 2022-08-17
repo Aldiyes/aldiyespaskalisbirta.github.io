@@ -14,6 +14,7 @@
 
 body {
   background: linear-gradient(to bottom right, #07122c, #211032, #330b2f);
+  min-height: 100vh;
 }
 section {
   padding: 5rem 0;

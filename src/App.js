@@ -12,8 +12,8 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/main-activity" element={<MainActivity />} />
+        <Route path="/about/" element={<About />} />
+        <Route path="/main-activity/" element={<MainActivity />} />
       </Routes>
       <Footer />
     </Router>
