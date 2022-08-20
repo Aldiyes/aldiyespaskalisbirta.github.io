@@ -8,7 +8,7 @@ function Definisi() {
       <div className="container container-md">
         <h1 className="title">DEFINISI</h1>
         <div className="row d-flex justify-content-center align-items-center flex-row-reverse">
-          <div className="col col-md-6 d-flex justify-content-center">
+          <div className="col-md-6 mt-5 d-flex justify-content-center">
             <div className="border-animation">
               <span className="inset"></span>
               <span className="image p-relative">
@@ -17,7 +17,7 @@ function Definisi() {
             </div>
           </div>
 
-          <div className="col col-md-6">
+          <div className="col-md-6 mt-5">
             <h3 className="title title-desc text-light">APA ITU IT DAYS?</h3>
             <p className="description text-light">
               IT Days merupakan rangkaian kegiatan rutin tahunan dari Himpunan Mahasiswa Informatika Sanata Dharma yang diselenggarakan sebagai program kerja dari Himpunan yang bertujuan sebagai wadah pengembangan diri bagi seluruh

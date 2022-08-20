@@ -1,0 +1,7 @@
+.img-left {
+  border-radius: 5rem 0 5rem 0;
+}
+
+.img-right {
+  border-radius: 0 5rem 0 5rem;
+}

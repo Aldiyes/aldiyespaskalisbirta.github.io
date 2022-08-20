@@ -7,7 +7,7 @@ function Filosofi() {
       <div className="container container-md">
         <h1 className="title">FILOSOFI LOGO</h1>
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col col-md-6 d-flex justify-content-center">
+          <div className="col-md-6 mt-5 d-flex justify-content-center">
             <div className="border-animation">
               <span className="inset"></span>
               <span className="image p-relative">
@@ -16,7 +16,7 @@ function Filosofi() {
             </div>
           </div>
 
-          <div className="col col-md-6">
+          <div className="col-md-6 mt-5">
             <h3 className="title title-desc text-light">IT DAYS 2022</h3>
             <p className="description text-light">
               Logo IT DAYS terdiri dari burung enggang, electrical circuit dan nanotech. Ketiga unsur tersebut di padukan dalam sebuah logo yang melambangkan sebagai ikatan yang kokoh. <br />

@@ -16,6 +16,7 @@
 }
 .footer a {
   color: rgb(174, 174, 174);
+  text-decoration: none;
 }
 .footer .list-group-horizontal a {
   font-size: 2rem;
@@ -29,6 +30,7 @@
   display: flex;
   align-items: center;
 }
+
 .footer .contact-info i {
   font-size: 2rem;
   margin-right: 1rem;
