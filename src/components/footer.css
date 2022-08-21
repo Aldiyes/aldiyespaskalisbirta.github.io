@@ -1,6 +1,7 @@
 .footer .footer-title {
   color: #fff;
   font-weight: 700;
+  font-size: 1.5rem;
   letter-spacing: 1px;
 }
 
@@ -29,6 +30,7 @@
 .footer .contact-info a {
   display: flex;
   align-items: center;
+  font-size: 1rem;
 }
 
 .footer .contact-info i {

@@ -39,7 +39,7 @@ function Footer() {
 
           {/* <!-- 2 --> */}
           <div className="col-md-4 text-light mt-5 quick-links">
-            <h2 className="footer-title text-start ps-3">Quick Links</h2>
+            <h2 className="footer-title text-md-start ps-md-3">Quick Links</h2>
             <ul className="list-group">
               <li className="list-group-item text-start">
                 <a href="/main-activity/" className="band-akustik">
@@ -69,8 +69,8 @@ function Footer() {
             </ul>
           </div>
           {/* <!-- 3 --> */}
-          <div className="col-md-4 text-light mt-5 contact-info">
-            <h2 className="footer-title text-start ps-3">Contact Info</h2>
+          <div className="col-md-4 text-light mt-5 contact-info ">
+            <h2 className="footer-title text-md-start ps-md-3">Contact Info</h2>
             <ul className="list-group">
               {/* <!-- whatsapp --> */}
               <li className="list-group-item text-start">

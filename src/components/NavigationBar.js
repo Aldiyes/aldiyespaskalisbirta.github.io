@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navigationBar.css";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
 var lastScrollTop = 0;
 
 function NavigationBar() {
-  const [show, setShow] = useState(true);
+  const [navbarShow, setNavbarShow] = useState(true);
 
   const controlNavbar = () => {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop > lastScrollTop) {
-      setShow(false);
+      setNavbarShow(false);
     } else {
-      setShow(true);
+      setNavbarShow(true);
     }
     lastScrollTop = scrollTop;
   };
@@ -25,35 +26,42 @@ function NavigationBar() {
     };
   });
 
+  // off canvas scroll
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
-    <header className={`navbar navbar-expand-md fixed-top ${show ? "active" : ""}`} id="navbar">
-      <nav className="container container-md px-md-5 px-3">
+    <header className={`navbar navbar-expand-lg fixed-top ${navbarShow ? "active" : ""}`} id="navbar">
+      <nav className="container container-lg px-md-5 px-3">
         <div className="border-animation">
           <span className="inset"></span>
           <span className="navbar-brand p-relative ps-3">IT DAYS 2022</span>
         </div>
-        <button className="navbar-toggler float-md-end d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+        <button className="navbar-toggler float-md-end d-lg-none" type="button" onClick={handleShow} data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
           <i className="bi bi-list text-light"></i>
         </button>
 
-        <div className="offcanvas offcanvas-md offcanvas-bottom" tabIndex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-          <div className="offcanvas-header">
-            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-          </div>
-          <div className="offcanvas-body">
-            <div className="navbar-nav text-center ms-auto">
-              <NavLink className="nav-link" to="/">
-                Home
-              </NavLink>
-              <NavLink className="nav-link" to="/about">
-                About
-              </NavLink>
-              <NavLink className="nav-link" to="/main-activity">
-                Main Activity
-              </NavLink>
-            </div>
-          </div>
-        </div>
+        <Offcanvas show={show} onHide={handleClose} responsive="lg" placement="bottom" className="offcanvas">
+          <Offcanvas.Header closeButton></Offcanvas.Header>
+
+          <Offcanvas.Body className="offcanvas-body ms-auto d-flex flex-column flex-lg-row">
+            <NavLink className="nav-link" to="/" onClick={handleClose}>
+              Home
+            </NavLink>
+            <NavLink className="nav-link" to="/about" onClick={handleClose}>
+              About
+            </NavLink>
+            <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
+              Main Activity
+            </NavLink>
+            <NavLink className="nav-link" to="/registration" onClick={handleClose}>
+              Registration
+            </NavLink>
+          </Offcanvas.Body>
+        </Offcanvas>
       </nav>
     </header>
   );
