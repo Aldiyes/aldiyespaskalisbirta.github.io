@@ -9,7 +9,7 @@ img {
   transition: 0.3s;
 }
 
-img:hover {
+.gallery img:hover {
   transform: scale(1.02);
 }
 
