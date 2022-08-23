@@ -1,0 +1,9 @@
+.registration a {
+  text-decoration: none;
+  background: green;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}

@@ -282,5 +282,36 @@ export const activityEksternal = [
     smallDesc: "Futsal merupakan sebuah olahraga yang mempertemukan dua team dalam satu pertandingan, dimana sebuah team terdiri dari 5 pemain yang akan...",
   },
 ];
-
+export const Competition = [
+  {
+    id: 1,
+    img: imgTalkShow2,
+    title: "Band Akustik",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+  },
+  {
+    id: 2,
+    img: imgTalkShow2,
+    title: "Short Movie",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfSM0SKcqsye8oDG3KUsropJHeox5SSORvBrWKMq6EctzkLCQ/viewform",
+  },
+  {
+    id: 3,
+    img: imgTalkShow2,
+    title: "Valorant",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSe4NGdfUwDBnqEF-6k75R9Hcg0sqEIkPxS0cnOM2aKFMTwAUw/viewform?fbzx=5127958193277825258",
+  },
+  {
+    id: 4,
+    img: imgTalkShow2,
+    title: "Mobile Legend",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSc0sUhfmgATV6oT5HizLP2VlloydeK0OYhcQZBLHoHS4zSmhQ/viewform",
+  },
+  {
+    id: 5,
+    img: imgTalkShow2,
+    title: "Futsal",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
+  },
+];
 export const logo = [{ id: 1, img: imgLogo, title: "logo" }];

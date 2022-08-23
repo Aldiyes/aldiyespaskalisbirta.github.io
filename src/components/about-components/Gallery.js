@@ -47,7 +47,6 @@ function Gallery() {
         <button className={`btn btn-load-more my-5 ${showImage < Images.length ? "active" : ""}`} onClick={() => loadMore()}>
           LOAD MORE
         </button>
-        ;
       </div>
     </section>
   );
