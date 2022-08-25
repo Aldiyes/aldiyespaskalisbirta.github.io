@@ -49,13 +49,13 @@ function NavigationBar() {
           <Offcanvas.Header closeButton></Offcanvas.Header>
 
           <Offcanvas.Body className="offcanvas-body ms-auto d-flex flex-column flex-lg-row">
-            <NavLink className="nav-link" to="/" onClick={handleClose}>
+            <NavLink className="nav-link" to="aldiyespaskalisbirta.github.io/" onClick={handleClose}>
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/about" onClick={handleClose}>
+            <NavLink className="nav-link" to="aldiyespaskalisbirta.github.io/about" onClick={handleClose}>
               About
             </NavLink>
-            <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
+            <NavLink className="nav-link" to="aldiyespaskalisbirta.github.io/main-activity" onClick={handleClose}>
               Main Activity
             </NavLink>
             <NavDropdown title="Registration" id="navbarScrollingDropdown">
