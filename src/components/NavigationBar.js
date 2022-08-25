@@ -57,9 +57,9 @@ function NavigationBar() {
             <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
               Main Activity
             </NavLink>
-            <NavLink className="nav-link" to="/registration" onClick={handleClose}>
+            <a className="nav-link" href="/registration" onClick={handleClose}>
               Registration
-            </NavLink>
+            </a>
           </Offcanvas.Body>
         </Offcanvas>
       </nav>
