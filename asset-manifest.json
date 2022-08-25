@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.68e2867a.css",
-    "main.js": "/static/js/main.e38e973f.js",
+    "main.css": "/static/css/main.6f37e5e2.css",
+    "main.js": "/static/js/main.07ca3a58.js",
     "static/media/mobile_legend (2).jpg": "/static/media/mobile_legend (2).93bfde2c9751c1633be2.jpg",
     "static/media/mobile_legend (5).jpg": "/static/media/mobile_legend (5).a31da2e11ade18c38751.jpg",
     "static/media/misa (6).jpg": "/static/media/misa (6).752d976d1bba75a55dd1.jpg",
@@ -43,11 +43,11 @@
     "static/media/empty_icon.png": "/static/media/empty_icon.9ae20e60b752fceba7b9.png",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "index.html": "/index.html",
-    "main.68e2867a.css.map": "/static/css/main.68e2867a.css.map",
-    "main.e38e973f.js.map": "/static/js/main.e38e973f.js.map"
+    "main.6f37e5e2.css.map": "/static/css/main.6f37e5e2.css.map",
+    "main.07ca3a58.js.map": "/static/js/main.07ca3a58.js.map"
   },
   "entrypoints": [
-    "static/css/main.68e2867a.css",
-    "static/js/main.e38e973f.js"
+    "static/css/main.6f37e5e2.css",
+    "static/js/main.07ca3a58.js"
   ]
 }
