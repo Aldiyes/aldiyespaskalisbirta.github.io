@@ -10,7 +10,7 @@ import Registration from "./pages/registration/Registration";
 import "./App.css";
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
