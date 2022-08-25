@@ -5,18 +5,20 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import MainActivity from "./pages/activity/MainActivity";
 import Footer from "./components/Footer";
+import Internal from "./pages/registration-internal/Internal";
+import Eksternal from "./pages/registration-eksternal/Eksternal";
 
-import Registration from "./pages/registration/Registration";
 import "./App.css";
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about/" element={<About />} />
         <Route path="/main-activity/" element={<MainActivity />} />
-        <Route path="/registration/" element={<Registration />} />
+        <Route path="/registration/" element={<Internal />} />
+        <Route path="/registration/" element={<Eksternal />} />
       </Routes>
       <Footer />
     </Router>

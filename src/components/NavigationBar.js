@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navigationBar.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 var lastScrollTop = 0;
 
@@ -57,9 +58,10 @@ function NavigationBar() {
             <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
               Main Activity
             </NavLink>
-            <a className="nav-link" href="/registration" onClick={handleClose}>
-              Registration
-            </a>
+            <NavDropdown title="Registration" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/RegistrationInternal">Internal</NavDropdown.Item>
+              <NavDropdown.Item href="/RegistrationEksternal">Eksternal</NavDropdown.Item>
+            </NavDropdown>
           </Offcanvas.Body>
         </Offcanvas>
       </nav>
