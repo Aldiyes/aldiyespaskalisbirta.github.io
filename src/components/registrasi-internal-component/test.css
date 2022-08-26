@@ -1,0 +1,51 @@
+.box {
+  background: linear-gradient(to bottom right, #42275a, #734b6d);
+  border-radius: 20px;
+  padding: 2rem 1rem;
+}
+
+.box-sk {
+  padding: 5rem 0;
+}
+
+.SK li {
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.ITDaysRegistrasi .title {
+  font-size: 2rem;
+}
+.ITDaysRegistrasi .description {
+  font-size: 1rem;
+}
+
+.ITDaysRegistrasi .button-daftar {
+  background: linear-gradient(180deg, #aa076b 0%, #61045f 100%);
+  padding: 0.5rem 0;
+  border-radius: 13px;
+}
+.ITDaysRegistrasi a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4rem;
+  border-radius: 4px;
+  backdrop-filter: blur(70px);
+}
+
+.box-peraturan {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 1rem;
+}
+.peraturan span {
+  font-size: 2rem;
+  display: flex;
+
+  color: #fff;
+  font-weight: 600;
+}
+
+.peraturan li {
+  list-style: none;
+}

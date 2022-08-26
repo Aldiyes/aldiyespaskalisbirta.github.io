@@ -58,9 +58,13 @@ function NavigationBar() {
             <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
               Main Activity
             </NavLink>
-            <NavDropdown title="Registration" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/RegistrationInternal">Internal</NavDropdown.Item>
-              <NavDropdown.Item href="/RegistrationEksternal">Eksternal</NavDropdown.Item>
+            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown">
+              <NavDropdown.Item href="/registrasi/internal" className="bg-dark text-light">
+                Internal
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/registrasi/eksternal" className="bg-dark text-light">
+                Eksternal
+              </NavDropdown.Item>
             </NavDropdown>
           </Offcanvas.Body>
         </Offcanvas>

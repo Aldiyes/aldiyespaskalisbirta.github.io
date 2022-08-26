@@ -287,13 +287,13 @@ export const Competition = [
     id: 1,
     img: imgTalkShow2,
     title: "Band Akustik",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    path: "",
   },
   {
     id: 2,
     img: imgBlindDate1,
     title: "Short Movie",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSfSM0SKcqsye8oDG3KUsropJHeox5SSORvBrWKMq6EctzkLCQ/viewform",
+    path: "/ITDaysBandAkustik",
   },
   {
     id: 3,
@@ -312,6 +312,29 @@ export const Competition = [
     img: imgWebinar3,
     title: "Futsal",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
+  },
+];
+
+export const ITDaysBandAkustik = [
+  {
+    id: 1,
+    title: "Band Akustik",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    img: imgTalkShow3,
+    syarat1: "Peserta merupakan masyarakat umum",
+    syarat2: "Peserta yang mengikuti lomba telah mengisi formulir yang sudah disediakan",
+    syarat3: "Grup band minimal anggota 2 orang dan maksimal anggota 5 orang",
+    syarat4: "Apabila pada saat technical meeting, peserta yang akan mengikuti lomba belum mengumpulkan biodata atau bukti KTM maka peserta tidak bisa mengikuti perlombaan atau dinyatakan telah mengundurkan diri",
+    syarat5: "Peserta diminta untuk mengirimkan video sebelum dari waktu yang ditentukan",
+    syarat6: "Jika peserta mengumpulkan video lewat dari waktu yang ditentukan maka dinyatakan bahwa peserta telah mengundurkan diri",
+    syarat7: "Durasi video penampilan band yaitu 4-7 menit",
+    syarat8: "Kualitas video penampilan band minimal 720p",
+    syarat9: "Kreativitas video penampilan band dikembalikan kepada peserta lomba band online",
+    syarat10: "Pengumpulan video dibuat dalam folder Google Drive yang sudah dibuat oleh panitia. Folder : Nama Band, File : Judul lagu yang dibawakan",
+    peraturan1: "Video penampilan band yang dilombakan merupakan video penampilan yang belum pernah dipublikasikan pada lomba manapun",
+    peraturan2: "Peseta lomba band bebas memilih lagu yang akan ditampilkan seusai dengan kreativitas masing - masing peserta",
+    peraturan3: "Peserta dilarang menampilkan atau membawakan lagu dengan lirik mengandung unsur SARA atau pornografi",
+    peraturan4: "Peserta yang melanggar ketentuan yang telah diterapkan akan di diskualifikasi",
   },
 ];
 export const logo = [{ id: 1, img: imgLogo, title: "logo" }];

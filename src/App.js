@@ -7,7 +7,7 @@ import MainActivity from "./pages/activity/MainActivity";
 import Footer from "./components/Footer";
 import Internal from "./pages/registration-internal/Internal";
 import Eksternal from "./pages/registration-eksternal/Eksternal";
-
+import BandAkustik from "./components/registrasi-internal-component/BandAkustik";
 import "./App.css";
 function App() {
   return (
@@ -17,8 +17,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about/" element={<About />} />
         <Route path="/main-activity/" element={<MainActivity />} />
-        <Route path="/registration/" element={<Internal />} />
-        <Route path="/registration/" element={<Eksternal />} />
+        <Route path="/registrasi/internal" element={<Internal />} />
+        <Route path="/registrasi/eksternal" element={<Eksternal />} />
+        <Route path="/ITDaysBandAkustik" element={<BandAkustik />} />
       </Routes>
       <Footer />
     </Router>

@@ -136,6 +136,8 @@ main {
   padding: 0 1rem;
   margin-top: 1rem;
   font-size: 0.9rem;
+  color: #fff;
+  text-shadow: 5px 3px 5px rgba(118, 137, 247, 0.5);
 }
 
 .carousel-inner::after {
