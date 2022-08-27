@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import { ITDaysInternalQuery100 } from "../../Data";
-import "./test.css";
+import "../registrasi-eksternal-component/test.css";
 
 function Pendaftaran() {
   return (
