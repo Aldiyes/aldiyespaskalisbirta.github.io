@@ -13,7 +13,9 @@
 .box-sk {
   padding: 5rem 0;
 }
-
+.ITDaysRegistrasi img {
+  border-radius: 10px;
+}
 .SK li {
   letter-spacing: 1px;
   color: #fff;
@@ -28,7 +30,8 @@
 
 .ITDaysRegistrasi .button-daftar {
   background: linear-gradient(180deg, #aa076b 0%, #61045f 100%);
-  padding: 0.5rem 0;
+  width: 30%;
+  height: 2rem;
   border-radius: 13px;
 }
 .ITDaysRegistrasi a {
@@ -36,7 +39,6 @@
   color: #fff;
   padding: 4rem;
   border-radius: 4px;
-  backdrop-filter: blur(70px);
 }
 
 .box-peraturan {
@@ -56,14 +58,7 @@
   list-style: none;
 }
 
-.countdown-timer {
-  /* background: red; */
-  border: 2px solid rgb(0, 179, 255);
-  padding: 5px;
-}
-
 .countdown-timer div {
-  /* background: red; */
   margin: 2px 5px;
   display: flex;
   flex-direction: column;
