@@ -282,59 +282,221 @@ export const activityEksternal = [
     smallDesc: "Futsal merupakan sebuah olahraga yang mempertemukan dua team dalam satu pertandingan, dimana sebuah team terdiri dari 5 pemain yang akan...",
   },
 ];
-export const Competition = [
+
+export const CompetitionInternal = [
+  {
+    id: 1,
+    img: imgTalkShow2,
+    title: "Query 100",
+    path: "/ITDaysQuery100",
+  },
+  {
+    id: 2,
+    img: imgBlindDate1,
+    title: "Fun Games",
+    path: "/ITDaysFunGames",
+  },
+];
+
+export const ITDaysInternalQuery100 = [
+  {
+    id: 1,
+    title: "Query100",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    img: imgTalkShow3,
+    syarat: [
+      "Khusus untuk mahasiswa Informatika USD",
+      "Peserta lomba berasal dari angkatan 19, 20, 21, dan 22",
+      "Satu tim wajib beranggotakan 4 orang",
+      "Mengisi formulir yang sudah disediakan oleh panitia IT Days serta melampirkan bukti berupa foto KTM/SS SIA semua anggota tim.",
+      "Mengikuti semua peraturan yang telah dibuat",
+      "Wajib hadir pada lokasi yang telah ditentukan 15 menit sebelum kegiatan dimulai",
+      "NB : (seluruh panitia ITdays tidak diizinkan mengikuti perlombaan Query 100)",
+    ],
+  },
+];
+
+export const ITDaysInternalFunGames = [
+  {
+    id: 2,
+    title: "Fun Games",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    img: imgTalkShow3,
+    syarat: [
+      "Peserta harus berasal dari program studi informatika (angkatan 20, 21, 22) dengan mengisi G-Form yang akan diberikan",
+      "Tiap angkatan WAJIB memiliki perwakilan minimal 3 mahasiswa",
+      "Untuk seluruh panitia IT Days diwajibkan untuk ikut",
+      "Peserta diwajibkan menggunakan pakaian yang sopan dan berwarna gelap",
+    ],
+  },
+];
+
+export const CompetitionEksternal = [
   {
     id: 1,
     img: imgTalkShow2,
     title: "Band Akustik",
-    path: "",
+    path: "/ITDaysBandAkustik",
   },
   {
     id: 2,
     img: imgBlindDate1,
     title: "Short Movie",
-    path: "/ITDaysBandAkustik",
+    path: "/ITDaysShortMovie",
   },
   {
     id: 3,
     img: imgML4,
     title: "Valorant",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSe4NGdfUwDBnqEF-6k75R9Hcg0sqEIkPxS0cnOM2aKFMTwAUw/viewform?fbzx=5127958193277825258",
+    path: "/ITDaysValorant",
   },
   {
     id: 4,
     img: imgMisa1,
     title: "Mobile Legend",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSc0sUhfmgATV6oT5HizLP2VlloydeK0OYhcQZBLHoHS4zSmhQ/viewform",
+    path: "/ITDaysMobileLegend",
   },
   {
     id: 5,
     img: imgWebinar3,
     title: "Futsal",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
+    path: "/ITDaysFutsal",
   },
 ];
 
-export const ITDaysBandAkustik = [
+export const ITDaysEksternalBandAkustik = [
   {
     id: 1,
     title: "Band Akustik",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
     img: imgTalkShow3,
-    syarat1: "Peserta merupakan masyarakat umum",
-    syarat2: "Peserta yang mengikuti lomba telah mengisi formulir yang sudah disediakan",
-    syarat3: "Grup band minimal anggota 2 orang dan maksimal anggota 5 orang",
-    syarat4: "Apabila pada saat technical meeting, peserta yang akan mengikuti lomba belum mengumpulkan biodata atau bukti KTM maka peserta tidak bisa mengikuti perlombaan atau dinyatakan telah mengundurkan diri",
-    syarat5: "Peserta diminta untuk mengirimkan video sebelum dari waktu yang ditentukan",
-    syarat6: "Jika peserta mengumpulkan video lewat dari waktu yang ditentukan maka dinyatakan bahwa peserta telah mengundurkan diri",
-    syarat7: "Durasi video penampilan band yaitu 4-7 menit",
-    syarat8: "Kualitas video penampilan band minimal 720p",
-    syarat9: "Kreativitas video penampilan band dikembalikan kepada peserta lomba band online",
-    syarat10: "Pengumpulan video dibuat dalam folder Google Drive yang sudah dibuat oleh panitia. Folder : Nama Band, File : Judul lagu yang dibawakan",
-    peraturan1: "Video penampilan band yang dilombakan merupakan video penampilan yang belum pernah dipublikasikan pada lomba manapun",
-    peraturan2: "Peseta lomba band bebas memilih lagu yang akan ditampilkan seusai dengan kreativitas masing - masing peserta",
-    peraturan3: "Peserta dilarang menampilkan atau membawakan lagu dengan lirik mengandung unsur SARA atau pornografi",
-    peraturan4: "Peserta yang melanggar ketentuan yang telah diterapkan akan di diskualifikasi",
+    syarat: [
+      "Peserta merupakan masyarakat umum",
+      "Peserta yang mengikuti lomba telah mengisi formulir yang sudah disediakan",
+      "Grup band minimal anggota 2 orang dan maksimal anggota 5 orang",
+      "Apabila pada saat technical meeting, peserta yang akan mengikuti lomba belum mengumpulkan biodata atau bukti KTM maka peserta tidak bisa mengikuti perlombaan atau dinyatakan telah mengundurkan diri",
+      "Peserta diminta untuk mengirimkan video sebelum dari waktu yang ditentukan",
+      "Jika peserta mengumpulkan video lewat dari waktu yang ditentukan maka dinyatakan bahwa peserta telah mengundurkan diri",
+      "Durasi video penampilan band yaitu 4-7 menit",
+      "Kualitas video penampilan band minimal 720p",
+      "Kreativitas video penampilan band dikembalikan kepada peserta lomba band online",
+      "Pengumpulan video dibuat dalam folder Google Drive yang sudah dibuat oleh panitia. Folder : Nama Band, File : Judul lagu yang dibawakan",
+    ],
+
+    peraturan: [
+      "Video penampilan band yang dilombakan merupakan video penampilan yang belum pernah dipublikasikan pada lomba manapun",
+      "Peseta lomba band bebas memilih lagu yang akan ditampilkan seusai dengan kreativitas masing - masing peserta",
+      "Peserta dilarang menampilkan atau membawakan lagu dengan lirik mengandung unsur SARA atau pornografi",
+      "Peserta yang melanggar ketentuan yang telah diterapkan akan di diskualifikasi",
+    ],
   },
 ];
+
+export const ITDaysEksternalShortMovie = [
+  {
+    id: 2,
+    title: "Short Movie",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    img: imgTalkShow3,
+    syarat: [
+      "Peserta khusus untuk SMA/SMK sederajat",
+      "Mengisi formulir pendaftaran pada G-Form yang telah disediakan",
+      "Tema film pendeknya “Adaptasi Teknologi di berbagai bidang Kehidupan” tidak boleh lari dari tema",
+      "Upload video di akun instagram dan tag akun instagram @itdays_usd dan @hmif.usd untuk teaser video",
+      "Akun Instagram yang digunakan tidak boleh privat",
+      "Durasi minimal 5 menit maksimal 10 menit ",
+      "Karya yang dilombakan merupakan karya asli peserta dan belum pernah diikutsertakan atau dipublikasikan untuk keperluan yang bersifat komersil serta harus bebas dari setiap kontrak atau ikatan lain.",
+      "Musik/lagu dan materi lainnya (foto, grafis & lain-lain) tidak melanggar hak cipta serta tidak mengandung unsur promosi, SARA, kekerasan dan pornografi",
+      "Jika di kemudian hari ditemukan bukti bahwa karya pemenang diragukan keasliannya, maka penyelenggara berhak membatalkan dan menarik penghargaan/hadiah yang sudah diberikan.",
+      "Khusus untuk kepentingan publikasi, penyelenggara memiliki haksiar dan dapat menggunakan materi foto dan/ atau video karya peserta, sebagian maupun utuh.",
+      "Apabila dikemudian hari terdapat gugatan hak cipta, pihak panitia tidak bertanggung jawab atas hal tersebut, panitia akan berasumsi bahwa seluruh video yang diikutsertakan merupakan karya orisinil peserta.",
+    ],
+  },
+];
+
+export const ITDaysEksternalValorant = [
+  {
+    id: 3,
+    title: "Valorant",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSe4NGdfUwDBnqEF-6k75R9Hcg0sqEIkPxS0cnOM2aKFMTwAUw/viewform?fbzx=5127958193277825258",
+    img: imgTalkShow3,
+    syarat: [
+      "Peserta Lomba E-sports Valorant bersifat umum.",
+      "Wajib mengisi formulir pendaftaran yang telah disediakan oleh panitia.",
+      "Membayar uang pendaftaran sebesar Rp 75.000",
+      "Peserta wajib beranggotakan 5 orang pemain utama dan 1 pemain cadangan.",
+      "Peserta lomba hanya boleh masuk dalam satu tim.",
+      "Setiap tim wajib memiliki 1 kapten tim untuk masuk ke dalam grup WA yang dibuat oleh panitia karena segala informasi perlombaan akan diumumkan melalui grup tersebut.",
+      "Nama nickname pemain dan tim tidak boleh mengandung unsur SARA, jika ada tim yang menggunakannya, maka tim tersebut akan didiskualifikasi.",
+      "Peserta wajib memiliki device yang memadai, serta jaringan data seluler pribadi, panitia tidak bertanggung jawab atas device dan jaringan peserta.",
+      "Keputusan dari juri dan panitia bersifat mutlak dan tidak dapat diganggu gugat.  ",
+    ],
+
+    peraturan: [
+      "Seluruh peserta wajib mendaftarkan RIOT ID masing - masing dan tidak diperkenankan mengubahnya selama mengikuti turnamen",
+      "Koneksi internet dan keadaan device sepenuhnya adalah tanggung jawab peserta, panitia tidak bertanggung jawab atas masalah apapun yang terjadi pada device maupun koneksi internet.",
+      "Peserta tidak diperbolehkan berbagi/joki akun.",
+      "Peserta wajib masuk server discord yang telah disediakan.",
+      "Seluruh komunikasi antara peserta dan panitia dilakukan dalam discord.",
+      "Seluruh peserta wajib on mic dan on cam saat pertandingan berlangsung.",
+      "Segala bentuk taunting dalam In Game diperbolehkan asal tidak dilakukan secara berlebihan hingga Out Game",
+      "Dilarang menggunakan program eksternal untuk mencurangi pertandingan (Aim Hack, Wall Hack, dan lain - lain), dimohon kejujuran tiap peserta",
+      "Setiap tim akan mendapatkan hak untuk Request Tactical Timeout sebanyak 2 x 2 menit",
+      "Peserta dapat meminta Tactical Timeout dengan cara mengetik pause di party chat sebelum Buy-Phase berakhir dan panitia akan mem-pause match",
+    ],
+  },
+];
+
+export const ITDaysEksternalMobileLegend = [
+  {
+    id: 4,
+    title: "Mobile Legend",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSc0sUhfmgATV6oT5HizLP2VlloydeK0OYhcQZBLHoHS4zSmhQ/viewform",
+    img: imgTalkShow3,
+    syarat: [
+      "Peserta lomba E-sports ML bersifat umum.",
+      "Wajib mengisi formulir pendaftaran yang telah disediakan oleh panitia.",
+      "Membayar uang pendaftaran sebesar Rp 75.000",
+      "Peserta wajib beranggotakan 5 orang pemain utama dan 1 pemain cadangan.",
+      "Peserta lomba hanya boleh masuk dalam satu tim.",
+      "Setiap tim wajib memiliki 1 kapten tim untuk masuk ke dalam grup WA yang dibuat oleh panitia karena segala informasi perlombaan akan diumumkan melalui grup tersebut.",
+      "Nama nickname pemain dan tim tidak boleh mengandung unsur SARA, jika ada tim yang menggunakannya, maka tim tersebut akan didiskualifikasi.",
+      "Peserta wajib memiliki device yang memadai, serta jaringan data seluler pribadi, panitia tidak bertanggung jawab atas device dan jaringan peserta.",
+      "Keputusan dari juri dan panitia bersifat mutlak dan tidak dapat diganggu gugat. ",
+    ],
+
+    peraturan: [
+      "Setiap peserta wajib memiliki device dengan akun Mobile Legends milik sendiri bukan milik orang lain",
+      "Setiap peserta hanya boleh masuk dalam 1 tim.",
+      "Setelan lobby : lobby akan dibuat oleh panitia, lalu panitia akan mengundang Kapten Tim dan berikutnya Kapten Tim akan mengundang anggota timnya.",
+    ],
+  },
+];
+
+export const ITDaysEksternalFutsal = [
+  {
+    id: 5,
+    title: "Futsal",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
+    img: imgTalkShow3,
+    syarat: [
+      "Peserta lomba khusus untuk mahasiswa aktif USD semua fakultas.",
+      "Mengisi formulir pendaftaran yang sudah disediakan oleh panitia IT Days dan melengkapi segala persyaratan yang tertera.",
+      "Satu tim maksimal 10 orang pemain ditambah 1 official (wajib dan bukan pemain).",
+      "Setiap tim wajib melunasi uang pendaftaran sebesar 250.000 sesuai dengan waktu yang telah ditentukan.",
+      "Tim yang akan bertanding wajib sudah berada di lokasi minimal 30 menit sebelum bertanding, dan toleransi keterlambatan selama 10 menit, jika tim tidak hadir, maka akan dianggap gugur dan tim lawan otomatis menang.",
+    ],
+
+    peraturan: [
+      "Waktu pertandingan 2 x 10 menit, dengan waktu istirahat 5 menit. ",
+      "Setiap tim berhak meminta waktu timeout 1 kali selama 1 menit setiap babak.",
+      "Setiap pemain wajib berperilaku sopan dan saling menghargai, apabila melanggar akan diberi sanksi tegas.",
+      "Semua peserta wajib menggunakan sepatu futsal dan memakai perlengkapan permainan ldengan engkap, seperti warna jersey yang sama setiap anggota kecuali kiper, dan perlengkapan lain.",
+      "Setiap pemain hanya boleh bermain di 1 tim saja.",
+      "Keputusan wasit dan panitia bersifat mutlak.",
+      "Jika hasil pertandingan seri, maka akan dilakukan adu penalti.",
+    ],
+  },
+];
+
 export const logo = [{ id: 1, img: imgLogo, title: "logo" }];

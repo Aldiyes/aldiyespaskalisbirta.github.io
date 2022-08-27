@@ -1,5 +1,6 @@
 .box {
-  background: linear-gradient(to bottom right, #42275a, #734b6d);
+  background: linear-gradient(90.54deg, rgba(255, 0, 204, 0.28) 0.39%, rgba(51, 51, 153, 0.54) 99.46%);
+  /* filter: blur(7px); */
   border-radius: 20px;
   padding: 2rem 1rem;
 }
