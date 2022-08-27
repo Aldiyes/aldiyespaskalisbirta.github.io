@@ -96,28 +96,28 @@ function Pendaftaran() {
                     </ul>
                   </div>
                 </Row>
-                <Row md={7} className="sistem-pertandingan">
+              </Col>
+              <Col className="right-side">
+                <Row className="peraturan">
+                  <div className="box box-sk ">
+                    <h1 className="title pt-4">Peraturan</h1>
+                    <ul className="g-2 justify-content-center align-items-center">
+                      {item.peraturan.map((peraturan, index) => (
+                        <li className={`d-flex ${index % 2 === 0 ? "flex-row-reverse" : ""}`} key={index}>
+                          <div className="description w-100">{peraturan}</div>
+                          <span className="number align-items-center p-2">{index + 1}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </Row>
+                <Row md={7} className="sistem-pertandingan pt-5">
                   <div className="box box-sistem-pertandingan">
                     <h1 className="title g-4 pb-4">Sistem Pertandingan</h1>
                     <ul>
                       {item.sistemPertandingan.map((sp, index) => (
                         <li className="description" key={index}>
                           {sp}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </Row>
-              </Col>
-              <Col className="right-side">
-                <Row className="peraturan">
-                  <div className="box box-sk ">
-                    <h1 className="title">Peraturan</h1>
-                    <ul className="p-5 g-2 justify-content-center align-items-center">
-                      {item.peraturan.map((peraturan, index) => (
-                        <li className={`d-flex ${index % 2 === 0 ? "flex-row-reverse" : ""}`} key={index}>
-                          <div className="description w-100">{peraturan}</div>
-                          <span className="number align-items-center p-2">{index + 1}</span>
                         </li>
                       ))}
                     </ul>

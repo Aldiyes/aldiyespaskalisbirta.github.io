@@ -394,6 +394,14 @@ export const ITDaysEksternalBandAkustik = [
       "Peserta dilarang menampilkan atau membawakan lagu dengan lirik mengandung unsur SARA atau pornografi",
       "Peserta yang melanggar ketentuan yang telah diterapkan akan di diskualifikasi",
     ],
+    penilaian: [
+      "Lomba akan dinilai oleh juri yang berkompeten",
+      "Keputusan juri adalah mutlak dan tidak dapat diganggu gugat",
+      "Pemenang lomba band terdiri atas Juara 1, Juara 2, dan Juara 3",
+      "Peserta lomba band yang mendapat juara 1 akan tampil pada malam puncak IT Days 2022",
+      "Dasar penilaian meliputi : ",
+    ],
+    penilaianMeliputi: ["Performance (penguasaan lagu / musik, interaksi, kostum)", "Skills (kreatifitas dan improvisasi)", "Harmonisasi (musikalitas, arransemen, kekompakan)."],
   },
 ];
 

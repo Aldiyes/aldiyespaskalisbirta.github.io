@@ -44,71 +44,90 @@ function Pendaftaran() {
       {ITDaysEksternalBandAkustik.map((item) => (
         <section className={`ITDaysRegistrasi ${item.title}`} key={item.id}>
           <Container>
-            <Row className="bg-danger">
-              <Col md={7} className="SK bg-success">
-                <div className="box box-sk ">
-                  <h1 className="title g-4 pb-4">{`Syarat dan Ketentuan ${item.title}`}</h1>
-                  <ul>
-                    {item.syarat.map((syarat, index) => (
-                      <li className="description" key={index}>
-                        {syarat}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </Col>
-              <Col md={{ span: 4, offset: 1 }} className="bg-primary">
-                <Row className="box pendaftaran flex-column g-4 justify-content-center align-items-center">
-                  <Col className="text-center title">{item.title}</Col>
-                  <Col className="text-center title">
-                    <img src={item.img} className="img img-item img-fluid" alt={item.title} />
-                  </Col>
-                  <Col className="countdown-timer text-light d-flex justify-content-center" md={10}>
-                    <div>
-                      <p className="number">{timerDays}</p>
-                      <p>
-                        <small>Days</small>
-                      </p>
+            <Row className="g-5 d-flex">
+              <Col className="left-side">
+                <Row className="link-pendaftaran">
+                  <div className="box box-link-pendaftaran d-flex flex-column justify-content-center align-items-center p-4">
+                    <h1 className="title pt-4">{item.title}</h1>
+                    <img src={item.img} className="img img-item img-fluid  p-4  rounded-3" alt={item.title} />
+                    <div className="countdown-timer text-light d-flex justify-content-center">
+                      <div>
+                        <p className="number">{timerDays}</p>
+                        <p>
+                          <small>Days</small>
+                        </p>
+                      </div>
+                      <div>
+                        <p className="number">{timerHours}</p>
+                        <p>
+                          <small>Hours</small>
+                        </p>
+                      </div>
+                      <div>
+                        <p className="number">{timerMinutes}</p>
+                        <p>
+                          <small>Minutes</small>
+                        </p>
+                      </div>
+                      <div>
+                        <p className="number">{timerSeconds}</p>
+                        <p>
+                          <small>Seconds</small>
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <p className="number">{timerHours}</p>
-                      <p>
-                        <small>Hours</small>
-                      </p>
-                    </div>
-                    <div>
-                      <p className="number">{timerMinutes}</p>
-                      <p>
-                        <small>Minutes</small>
-                      </p>
-                    </div>
-                    <div>
-                      <p className="number">{timerSeconds}</p>
-                      <p>
-                        <small>Seconds</small>
-                      </p>
-                    </div>
-                  </Col>
-                  <Col className="d-flex justify-content-center align-items-center">
-                    <div className="button-daftar">
+                    <div className="button-daftar mt-5 mb-5">
                       <a href={item.path} target="_blank" rel="noopener noreferrer" className="btn-daftar">
                         Daftar
                       </a>
                     </div>
-                  </Col>
+                  </div>
                 </Row>
-                <Row className="box mt-5">
-                  <Col className="peraturan">
-                    <h1 className="title">Peraturan</h1>
-                    <Col>
-                      {item.peraturan.map((peraturan, index) => (
-                        <div className={`box-peraturan ${(index + 1) % 2 === 0 ? "flex-row-reverse" : ""}`} key={index}>
-                          <div className="description">{peraturan}</div>
-                          <span className="number align-items-center">{index + 1}</span>
-                        </div>
+                <Row md={7} className="SK">
+                  <div className="box box-sk ">
+                    <h1 className="title g-4 pb-4">{`Syarat dan Ketentuan ${item.title}`}</h1>
+                    <ul>
+                      {item.syarat.map((syarat, index) => (
+                        <li className="description" key={index}>
+                          {syarat}
+                        </li>
                       ))}
-                    </Col>
-                  </Col>
+                    </ul>
+                  </div>
+                </Row>
+              </Col>
+              <Col className="right-side">
+                <Row className="peraturan">
+                  <div className="box box-sk ">
+                    <h1 className="title pt-4">Peraturan</h1>
+                    <ul className="g-2 justify-content-center align-items-center">
+                      {item.peraturan.map((peraturan, index) => (
+                        <li className={`d-flex ${index % 2 === 0 ? "flex-row-reverse" : ""}`} key={index}>
+                          <div className="description w-100">{peraturan}</div>
+                          <span className="number align-items-center p-2">{index + 1}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </Row>
+                <Row md={7} className="sistem-pertandingan pt-5">
+                  <div className="box box-sistem-pertandingan">
+                    <h1 className="title g-4 pb-4">Penilaian</h1>
+                    <ul>
+                      {item.penilaian.map((penilaian, index) => (
+                        <li className="description" key={index}>
+                          {penilaian}
+                        </li>
+                      ))}
+                    </ul>
+                    <ul className="meliputi-custom">
+                      {item.penilaianMeliputi.map((meliputi, index) => (
+                        <li className="description" key={item.id}>
+                          {meliputi}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </Row>
               </Col>
             </Row>
