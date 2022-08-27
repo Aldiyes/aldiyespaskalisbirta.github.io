@@ -337,30 +337,35 @@ export const CompetitionEksternal = [
     img: imgTalkShow2,
     title: "Band Akustik",
     path: "/ITDaysBandAkustik",
+    time: "Oct 16, 2022 00:00:00",
   },
   {
     id: 2,
     img: imgBlindDate1,
     title: "Short Movie",
     path: "/ITDaysShortMovie",
+    time: "Sep 20, 2022 00:00:00",
   },
   {
     id: 3,
     img: imgML4,
     title: "Valorant",
     path: "/ITDaysValorant",
+    time: "Sep 19, 2022 00:00:00",
   },
   {
     id: 4,
     img: imgMisa1,
     title: "Mobile Legend",
     path: "/ITDaysMobileLegend",
+    time: "Sep 19, 2022 00:00:00",
   },
   {
     id: 5,
     img: imgWebinar3,
     title: "Futsal",
     path: "/ITDaysFutsal",
+    time: "Sep 19, 2022 00:00:00",
   },
 ];
 
@@ -443,6 +448,13 @@ export const ITDaysEksternalValorant = [
       "Dilarang menggunakan program eksternal untuk mencurangi pertandingan (Aim Hack, Wall Hack, dan lain - lain), dimohon kejujuran tiap peserta",
       "Setiap tim akan mendapatkan hak untuk Request Tactical Timeout sebanyak 2 x 2 menit",
       "Peserta dapat meminta Tactical Timeout dengan cara mengetik pause di party chat sebelum Buy-Phase berakhir dan panitia akan mem-pause match",
+    ],
+    sistemPertandingan: [
+      "Babak penyisihan hingga perempat final akan menggunakan Sistem Best Of One (BO1) dan Overtime tidak diberlakukan atau Endgame",
+      "Pertandingan babak penyisihan hingga perempat final akan di host dengan ketentuan mode : Standard, Tournament Mode On, Cheats OFF, dan Endgame",
+      "Babak semifinal hingga final menggunakan Sistem Best Of Three (BO3) dengan diadakan Overtime",
+      "Pertandingan babak semifinal hinffa final akan di host dengan ketentuan mode : Standard, Tournament Mode On, Cheats OFF dan Overtime",
+      "Overtime akan diadakan maksimal 4 kali (skor 20-20) setelah itu tim yang meraih skor 21 terlebih dahulu akan menang",
     ],
   },
 ];

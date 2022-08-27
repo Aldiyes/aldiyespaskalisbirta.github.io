@@ -5,6 +5,11 @@
   padding: 2rem 1rem;
 }
 
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 .box-sk {
   padding: 5rem 0;
 }
@@ -49,4 +54,27 @@
 
 .peraturan li {
   list-style: none;
+}
+
+.countdown-timer {
+  /* background: red; */
+  border: 2px solid rgb(0, 179, 255);
+  padding: 5px;
+}
+
+.countdown-timer div {
+  /* background: red; */
+  margin: 2px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  line-height: 0.2rem;
+  border-radius: 1rem;
+  border: 1px solid #f00;
+}
+
+.countdown-timer .number {
+  margin-top: 1.2rem;
 }
