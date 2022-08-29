@@ -1,9 +1,10 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { CompetitionEksternal } from "../../Data";
+import { CompetitionEksternal } from "../../../Data";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import "../registrasi.css";
 
 function Eksternal() {
   return (
@@ -14,12 +15,11 @@ function Eksternal() {
           <Row xs={1} md={3} className="g-4 justify-content-center">
             {CompetitionEksternal.map((item) => (
               <Col key={item.id}>
-                <Card>
+                <Card className="custom-card">
                   <Card.Img variant="top" src={item.img} />
-                  <Card.Body>
-                    <Card.Title className="text-center">{item.title}</Card.Title>
-                    <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-                    <Link to={item.path}>{`Go somewhere ${item.title}`}</Link>
+                  <Card.Body className="justify-content-center align-items-center d-flex flex-column">
+                    <Card.Title className="title text-center">{item.title}</Card.Title>
+                    <Link to={item.path} className="button text-center">{`Daftar ${item.title}`}</Link>
                   </Card.Body>
                 </Card>
               </Col>

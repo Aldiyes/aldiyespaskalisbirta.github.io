@@ -46,8 +46,6 @@ function NavigationBar() {
         </button>
 
         <Offcanvas show={show} onHide={handleClose} responsive="lg" placement="bottom" className="offcanvas">
-          <Offcanvas.Header closeButton></Offcanvas.Header>
-
           <Offcanvas.Body className="offcanvas-body ms-auto d-flex flex-column flex-lg-row">
             <NavLink className="nav-link" to="/" onClick={handleClose}>
               Home
@@ -58,13 +56,9 @@ function NavigationBar() {
             <NavLink className="nav-link" to="/main-activity" onClick={handleClose}>
               Main Activity
             </NavLink>
-            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown">
-              <NavDropdown.Item href="/registrasi/internal" className="bg-dark text-light">
-                Internal
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/registrasi/eksternal" className="bg-dark text-light">
-                Eksternal
-              </NavDropdown.Item>
+            <NavDropdown title="Registration" id="navbarScrollingDropdown" className="dropdown" menuVariant="transparent">
+              <NavDropdown.Item href="/registrasi/internal">Internal</NavDropdown.Item>
+              <NavDropdown.Item href="/registrasi/eksternal">Eksternal</NavDropdown.Item>
             </NavDropdown>
           </Offcanvas.Body>
         </Offcanvas>

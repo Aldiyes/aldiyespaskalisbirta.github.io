@@ -3,7 +3,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import { ITDaysInternalFunGames } from "../../Data";
+
 import "../registrasi-eksternal-component/test.css";
+import CountDownTimer from "../../components/CountDownTimer";
 
 function Pendaftaran() {
   return (
@@ -11,33 +13,37 @@ function Pendaftaran() {
       {ITDaysInternalFunGames.map((item) => (
         <section className={`ITDaysRegistrasi ${item.title}`} key={item.id}>
           <Container>
-            <Row>
-              <Col md={7} className="SK">
-                <div className="box box-sk ">
-                  <h1 className="title g-4 pb-4">{`Syarat dan Ketentuan ${item.title}`}</h1>
-                  <ul>
-                    {item.syarat.map((syarat, index) => (
-                      <li className="description" key={index}>
-                        {syarat}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <Row className="g-5 d-flex">
+              <Col className="left-side">
+                <Row md={7} className="SK">
+                  <div className="box box-SK ">
+                    <h1 className="title g-4 pb-4">{`Syarat dan Ketentuan ${item.title}`}</h1>
+                    <ul>
+                      {item.syarat.map((syarat, index) => (
+                        <li className="description" key={index + 1}>
+                          {syarat}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </Row>
               </Col>
-              <Col md={{ span: 4, offset: 1 }}>
-                <Row className="box pendaftaran flex-column g-4">
-                  <Col className="text-center title">{item.title}</Col>
-                  <Col className="text-center title">
-                    <img src={item.img} className="img img-item img-fluid" alt={item.title} />
-                  </Col>
-                  <Col className="countdown-timer text-center text-light py-5">Countdown-Timer</Col>
-                  <Col className="d-flex justify-content-center align-items-center">
-                    <div className="button-daftar">
+              <Col className="right-side">
+                <Row className="link-pendaftaran">
+                  <div className="box box-link-pendaftaran d-flex flex-column justify-content-center align-items-center p-4">
+                    <h1 className="title pt-4">{item.title}</h1>
+                    <div className="image">
+                      <img src={item.img} className="img img-item img-fluid" alt={item.title} />
+                    </div>
+                    <div className="countdown-timer text-light d-flex justify-content-center">
+                      <CountDownTimer time="Oct 19, 2022 00:00:00" />
+                    </div>
+                    <div className="button-daftar mt-5 mb-5">
                       <a href={item.path} target="_blank" rel="noopener noreferrer" className="btn-daftar">
                         Daftar
                       </a>
                     </div>
-                  </Col>
+                  </div>
                 </Row>
               </Col>
             </Row>

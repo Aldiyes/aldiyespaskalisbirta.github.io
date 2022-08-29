@@ -35,6 +35,11 @@ import imgBlindDate8 from "./images/blind_date (8).jpg";
 import emptyIcon from "./images/empty_icon.png";
 import imgFutsal from "./images/futsal.jpg";
 import imgLogo from "./images/logo.png";
+import valorant from "./images/logo valorant fix.jpg";
+import mlbb from "./images/logo ML fix.webp";
+import futsal from "./images/logo futsal fix.jpg";
+import shortMovie from "./images/logo short movie fix.jpeg";
+import bandAkustik from "./images/logo band akustik fix.jpg";
 
 export const Images = [
   {
@@ -374,7 +379,7 @@ export const ITDaysEksternalBandAkustik = [
     id: 1,
     title: "Band Akustik",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
-    img: imgTalkShow3,
+    img: bandAkustik,
     syarat: [
       "Peserta merupakan masyarakat umum",
       "Peserta yang mengikuti lomba telah mengisi formulir yang sudah disediakan",
@@ -409,8 +414,8 @@ export const ITDaysEksternalShortMovie = [
   {
     id: 2,
     title: "Short Movie",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
-    img: imgTalkShow3,
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSfSM0SKcqsye8oDG3KUsropJHeox5SSORvBrWKMq6EctzkLCQ/viewform",
+    img: shortMovie,
     syarat: [
       "Peserta khusus untuk SMA/SMK sederajat",
       "Mengisi formulir pendaftaran pada G-Form yang telah disediakan",
@@ -424,6 +429,8 @@ export const ITDaysEksternalShortMovie = [
       "Khusus untuk kepentingan publikasi, penyelenggara memiliki haksiar dan dapat menggunakan materi foto dan/ atau video karya peserta, sebagian maupun utuh.",
       "Apabila dikemudian hari terdapat gugatan hak cipta, pihak panitia tidak bertanggung jawab atas hal tersebut, panitia akan berasumsi bahwa seluruh video yang diikutsertakan merupakan karya orisinil peserta.",
     ],
+
+    penilaian: ["Kesesuaian dengan tema", "Teknik pengambilan gambar", "Tata musik dan suara", "Penyampaian pesan cerita film"],
   },
 ];
 
@@ -432,7 +439,7 @@ export const ITDaysEksternalValorant = [
     id: 3,
     title: "Valorant",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSe4NGdfUwDBnqEF-6k75R9Hcg0sqEIkPxS0cnOM2aKFMTwAUw/viewform?fbzx=5127958193277825258",
-    img: imgTalkShow3,
+    img: valorant,
     syarat: [
       "Peserta Lomba E-sports Valorant bersifat umum.",
       "Wajib mengisi formulir pendaftaran yang telah disediakan oleh panitia.",
@@ -472,7 +479,7 @@ export const ITDaysEksternalMobileLegend = [
     id: 4,
     title: "Mobile Legend",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSc0sUhfmgATV6oT5HizLP2VlloydeK0OYhcQZBLHoHS4zSmhQ/viewform",
-    img: imgTalkShow3,
+    img: mlbb,
     syarat: [
       "Peserta lomba E-sports ML bersifat umum.",
       "Wajib mengisi formulir pendaftaran yang telah disediakan oleh panitia.",
@@ -490,6 +497,17 @@ export const ITDaysEksternalMobileLegend = [
       "Setiap peserta hanya boleh masuk dalam 1 tim.",
       "Setelan lobby : lobby akan dibuat oleh panitia, lalu panitia akan mengundang Kapten Tim dan berikutnya Kapten Tim akan mengundang anggota timnya.",
     ],
+
+    sistemPertandingan: [
+      "Babak Penyisihan hingga Perempat Final akan menggunakan Sistem Best Of Three (BO3)",
+      "Babak Semifinal dan Final menggunakan Sistem Best Of Five (BO5)",
+      "Setiap Tim wajib memastikan koneksi Internet yang lancar dan device yang memadai, segala bentuk kendala device ataupun koneksi sepenuhnya tanggung jawab peserta.",
+      "Hanya boleh meminta maksimal 3 pause selama pertandingan.",
+      "Seluruh Komunikasi antara peserta dan panitia dilakukan dalam Discord.",
+      "Setiap Tim wajib masuk ke Lobby tepat waktu dengan toleransi keterlambatan maksimal 10 menit",
+      "Game Mode yang digunakan adalah Custom Lobby Draft Pick dengan Sistem Ban 3 hero.",
+      "Segala Bentuk Taunting dalam In Game diperbolehkan asal tidak dilakukan secara berlebihan hingga Out Game.",
+    ],
   },
 ];
 
@@ -498,7 +516,7 @@ export const ITDaysEksternalFutsal = [
     id: 5,
     title: "Futsal",
     path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
-    img: imgTalkShow3,
+    img: futsal,
     syarat: [
       "Peserta lomba khusus untuk mahasiswa aktif USD semua fakultas.",
       "Mengisi formulir pendaftaran yang sudah disediakan oleh panitia IT Days dan melengkapi segala persyaratan yang tertera.",

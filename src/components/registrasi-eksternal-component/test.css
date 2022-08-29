@@ -1,6 +1,5 @@
 .box {
   background: linear-gradient(90.54deg, rgba(255, 0, 204, 0.28) 0.39%, rgba(51, 51, 153, 0.54) 99.46%);
-  /* filter: blur(7px); */
   border-radius: 20px;
   padding: 2rem 1rem;
 }
@@ -62,27 +61,15 @@
   list-style: none;
 }
 
-.countdown-timer div {
-  margin: 2px 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 1rem;
-  background: #38dbff;
-  color: #000;
-  font-weight: 700;
-  line-height: 1rem;
-  letter-spacing: 1px;
-}
-
-.countdown-timer .number {
-  margin-top: 1.3rem;
-  font-size: 2rem;
-  text-shadow: 2px 2px 2px rgba(180, 0, 235, 0.5);
-}
-
 .meliputi-custom {
   margin-left: 3rem;
+}
+
+.ITDaysRegistrasi .image {
+  border-radius: 40px;
+  margin: 3rem;
+}
+
+.image img {
+  border-radius: 40px;
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-// import { CompetitionEksternal } from "../Data";
-function CountDownTimer() {
+import "./count-down-timer.css";
+function CountDownTimer(props) {
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");
@@ -8,9 +8,10 @@ function CountDownTimer() {
 
   let interval = useRef();
 
-  const startTimer = () => {
-    const countdownDate = new Date("Oct 19, 2022 00:00:00").getTime();
+  const startTimer = (prps) => {
+    const countdownDate = new Date(`${props.time}`).getTime();
 
+    console.log(props);
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -23,10 +24,10 @@ function CountDownTimer() {
       if (distance < 0) {
         clearInterval(interval.current);
       } else {
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-        setTimerSeconds(seconds);
+        setTimerDays(days < 10 ? "0" + days : days);
+        setTimerHours(hours < 10 ? "0" + hours : hours);
+        setTimerMinutes(minutes < 10 ? "0" + minutes : minutes);
+        setTimerSeconds(seconds < 10 ? "0" + seconds : seconds);
       }
     }, 1000);
   };

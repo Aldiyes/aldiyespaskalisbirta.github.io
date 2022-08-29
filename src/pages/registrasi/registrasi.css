@@ -1,0 +1,12 @@
+.custom-card {
+  background: linear-gradient(to bottom right, #e7e9ee, #6e1bc1, #db24c9);
+}
+
+.button {
+  background: #01d3fd;
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 12px;
+  margin: 2rem;
+}
