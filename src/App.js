@@ -11,7 +11,7 @@ import BandAkustik from "./components/registrasi-eksternal-component/ITDaysEkste
 import ShortMovie from "./components/registrasi-eksternal-component/ITDaysEksternalShortMovie";
 import Valorant from "./components/registrasi-eksternal-component/ITDaysEksternalValorant";
 import MobileLegend from "./components/registrasi-eksternal-component/ITDaysEksternalMobileLegend";
-import Futsal from "./components/registrasi-eksternal-component/ITDaysEksternalFutsal";
+import Futsal from "./components/registrasi-internal-component/ITDaysInternalFutsal";
 import Query100 from "./components/registrasi-internal-component/ITDaysInternalQuery100";
 import FunGames from "./components/registrasi-internal-component/ITDaysInternalFunGames";
 import "./App.css";

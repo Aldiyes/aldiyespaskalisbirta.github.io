@@ -246,6 +246,14 @@ export const activityInternal = [
       "Fun Games atau dapat diartikan sebagai sebuah games atau permainan seru atau fun dan menjadi satu diantara rangkaian kegiatan yang akan berlangsung. Fun Games akan berisikan games-games seru yang akan diikuti oleh seluruh peserta dengan cara berkelompok atau saling bekerja sama dalam menyelesaikan games.",
     smallDesc: "Fun Games atau dapat diartikan sebagai sebuah games atau permainan seru atau fun dan menjadi satu diantara rangkaian kegiatan yang akan...",
   },
+  {
+    id: 5,
+    img: imgFutsal,
+    title: "Futsal",
+    description:
+      "Futsal merupakan sebuah olahraga yang mempertemukan dua team dalam satu pertandingan, dimana sebuah team terdiri dari 5 pemain yang akan bertanding untuk memasukkan bola ke gawang lawan atau gol sebanyak-banyaknya untuk mendapatkan kemenangan.",
+    smallDesc: "Futsal merupakan sebuah olahraga yang mempertemukan dua team dalam satu pertandingan, dimana sebuah team terdiri dari 5 pemain yang akan...",
+  },
 ];
 
 export const activityEksternal = [
@@ -278,14 +286,6 @@ export const activityEksternal = [
     description: "Mobile Legend atau lebih sering disebut ML adalah sebuah game MOBA berbasis mobile yang akan mempertemukan dua team berjumlah lima orang untuk merebut kemenangan.",
     smallDesc: "Mobile Legend atau lebih sering disebut ML adalah sebuah game MOBA berbasis mobile yang akan mempertemukan dua team berjumlah...",
   },
-  {
-    id: 5,
-    img: imgFutsal,
-    title: "Futsal",
-    description:
-      "Futsal merupakan sebuah olahraga yang mempertemukan dua team dalam satu pertandingan, dimana sebuah team terdiri dari 5 pemain yang akan bertanding untuk memasukkan bola ke gawang lawan atau gol sebanyak-banyaknya untuk mendapatkan kemenangan.",
-    smallDesc: "Futsal merupakan sebuah olahraga yang mempertemukan dua team dalam satu pertandingan, dimana sebuah team terdiri dari 5 pemain yang akan...",
-  },
 ];
 
 export const CompetitionInternal = [
@@ -300,6 +300,12 @@ export const CompetitionInternal = [
     img: imgBlindDate1,
     title: "Fun Games",
     path: "/ITDaysFunGames",
+  },
+  {
+    id: 3,
+    img: imgWebinar3,
+    title: "Futsal",
+    path: "/ITDaysFutsal",
   },
 ];
 
@@ -336,6 +342,32 @@ export const ITDaysInternalFunGames = [
   },
 ];
 
+export const ITDaysInternalFutsal = [
+  {
+    id: 5,
+    title: "Futsal",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
+    img: futsal,
+    syarat: [
+      "Peserta lomba khusus untuk mahasiswa aktif USD semua fakultas.",
+      "Mengisi formulir pendaftaran yang sudah disediakan oleh panitia IT Days dan melengkapi segala persyaratan yang tertera.",
+      "Satu tim maksimal 10 orang pemain ditambah 1 official (wajib dan bukan pemain).",
+      "Setiap tim wajib melunasi uang pendaftaran sebesar 250.000 sesuai dengan waktu yang telah ditentukan.",
+      "Tim yang akan bertanding wajib sudah berada di lokasi minimal 30 menit sebelum bertanding, dan toleransi keterlambatan selama 10 menit, jika tim tidak hadir, maka akan dianggap gugur dan tim lawan otomatis menang.",
+    ],
+
+    peraturan: [
+      "Waktu pertandingan 2 x 10 menit, dengan waktu istirahat 5 menit. ",
+      "Setiap tim berhak meminta waktu timeout 1 kali selama 1 menit setiap babak.",
+      "Setiap pemain wajib berperilaku sopan dan saling menghargai, apabila melanggar akan diberi sanksi tegas.",
+      "Semua peserta wajib menggunakan sepatu futsal dan memakai perlengkapan permainan ldengan engkap, seperti warna jersey yang sama setiap anggota kecuali kiper, dan perlengkapan lain.",
+      "Setiap pemain hanya boleh bermain di 1 tim saja.",
+      "Keputusan wasit dan panitia bersifat mutlak.",
+      "Jika hasil pertandingan seri, maka akan dilakukan adu penalti.",
+    ],
+  },
+];
+
 export const CompetitionEksternal = [
   {
     id: 1,
@@ -363,13 +395,6 @@ export const CompetitionEksternal = [
     img: imgMisa1,
     title: "Mobile Legend",
     path: "/ITDaysMobileLegend",
-    time: "Sep 19, 2022 00:00:00",
-  },
-  {
-    id: 5,
-    img: imgWebinar3,
-    title: "Futsal",
-    path: "/ITDaysFutsal",
     time: "Sep 19, 2022 00:00:00",
   },
 ];
@@ -507,32 +532,6 @@ export const ITDaysEksternalMobileLegend = [
       "Setiap Tim wajib masuk ke Lobby tepat waktu dengan toleransi keterlambatan maksimal 10 menit",
       "Game Mode yang digunakan adalah Custom Lobby Draft Pick dengan Sistem Ban 3 hero.",
       "Segala Bentuk Taunting dalam In Game diperbolehkan asal tidak dilakukan secara berlebihan hingga Out Game.",
-    ],
-  },
-];
-
-export const ITDaysEksternalFutsal = [
-  {
-    id: 5,
-    title: "Futsal",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSceUUfUjGvxwNPBgDKzvAcTq5X41d62CCQ5-sjmhByOaeyRow/viewform",
-    img: futsal,
-    syarat: [
-      "Peserta lomba khusus untuk mahasiswa aktif USD semua fakultas.",
-      "Mengisi formulir pendaftaran yang sudah disediakan oleh panitia IT Days dan melengkapi segala persyaratan yang tertera.",
-      "Satu tim maksimal 10 orang pemain ditambah 1 official (wajib dan bukan pemain).",
-      "Setiap tim wajib melunasi uang pendaftaran sebesar 250.000 sesuai dengan waktu yang telah ditentukan.",
-      "Tim yang akan bertanding wajib sudah berada di lokasi minimal 30 menit sebelum bertanding, dan toleransi keterlambatan selama 10 menit, jika tim tidak hadir, maka akan dianggap gugur dan tim lawan otomatis menang.",
-    ],
-
-    peraturan: [
-      "Waktu pertandingan 2 x 10 menit, dengan waktu istirahat 5 menit. ",
-      "Setiap tim berhak meminta waktu timeout 1 kali selama 1 menit setiap babak.",
-      "Setiap pemain wajib berperilaku sopan dan saling menghargai, apabila melanggar akan diberi sanksi tegas.",
-      "Semua peserta wajib menggunakan sepatu futsal dan memakai perlengkapan permainan ldengan engkap, seperti warna jersey yang sama setiap anggota kecuali kiper, dan perlengkapan lain.",
-      "Setiap pemain hanya boleh bermain di 1 tim saja.",
-      "Keputusan wasit dan panitia bersifat mutlak.",
-      "Jika hasil pertandingan seri, maka akan dilakukan adu penalti.",
     ],
   },
 ];

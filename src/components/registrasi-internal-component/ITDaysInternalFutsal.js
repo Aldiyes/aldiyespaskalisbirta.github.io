@@ -1,14 +1,14 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import { ITDaysEksternalFutsal } from "../../Data";
-import CountDownTimer from "../../components/CountDownTimer";
-import "./test.css";
+import { ITDaysInternalFutsal } from "../../Data";
+import CountDownTimer from "../CountDownTimer";
+import "../registrasi-eksternal-component/test.css";
 
 function Pendaftaran() {
   return (
     <main>
-      {ITDaysEksternalFutsal.map((item) => (
+      {ITDaysInternalFutsal.map((item) => (
         <section className={`ITDaysRegistrasi ${item.title}`} key={item.id}>
           <Container>
             <Row className="g-5 d-flex flex-column flex-md-row">
