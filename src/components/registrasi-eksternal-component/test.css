@@ -1,4 +1,4 @@
-.box {
+.ITDaysRegistrasi .box {
   background: linear-gradient(90.54deg, rgba(255, 0, 204, 0.28) 0.39%, rgba(51, 51, 153, 0.54) 99.46%);
   border-radius: 20px;
   padding: 2rem 1rem;
@@ -7,7 +7,7 @@
 .ITDaysRegistrasi img {
   border-radius: 10px;
 }
-.SK li {
+.ITDaysRegistrasi .SK li {
   letter-spacing: 1px;
   color: #fff;
 }
@@ -26,36 +26,30 @@
   text-decoration: none;
   color: #fff;
   border-radius: 1rem;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   letter-spacing: 1px;
   background: linear-gradient(180deg, #aa076b 0%, #61045f 100%);
   padding: 1rem 4rem;
 }
 
 .ITDaysRegistrasi a:hover {
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
-.box-peraturan {
-  display: flex;
-  gap: 2rem;
-  margin: 2rem 1rem;
-}
-.peraturan span {
+.ITDaysRegistrasi .peraturan span {
   font-size: 2rem;
   display: flex;
-
   color: #fff;
   font-weight: 600;
 }
 
-.peraturan li {
+.ITDaysRegistrasi .peraturan li {
   list-style: none;
 }
 
-.meliputi-custom {
+.ITDaysRegistrasi .meliputi-custom {
   margin-left: 3rem;
 }
 
@@ -64,7 +58,7 @@
   margin: 3rem;
 }
 
-.image img {
+.ITDaysRegistrasi .image img {
   border-radius: 40px;
 }
 

@@ -47,7 +47,7 @@ function Pendaftaran() {
               <Col className="right-side">
                 <Row className="container-right-side">
                   <Col className="peraturan">
-                    <div className="box box-sk ">
+                    <div className="box box-peraturan ">
                       <h1 className="title pt-4">Peraturan</h1>
                       <ul className="g-2 justify-content-center align-items-center">
                         {item.peraturan.map((peraturan, index) => (

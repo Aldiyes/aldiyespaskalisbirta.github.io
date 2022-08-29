@@ -1,20 +1,39 @@
 .countdown-timer div {
-  margin: 2px 5px;
+  margin: 0 5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 5rem;
-  height: 5rem;
+  justify-content: center;
   border-radius: 1rem;
   background: #38dbff;
   color: #000;
   font-weight: 700;
-  line-height: 1rem;
+  width: 4rem;
+  height: 2rem;
   letter-spacing: 1px;
 }
 
 .countdown-timer .number {
-  margin-top: 1.3rem;
-  font-size: 2rem;
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
   text-shadow: 2px 2px 2px rgba(180, 0, 235, 0.5);
+}
+
+.countdown-timer span {
+  font-size: 1rem;
+  transform: translateY(2px);
+}
+
+@media (min-width: 992px) {
+  .countdown-timer .number {
+    font-size: 2rem;
+  }
+  .countdown-timer span {
+    font-size: 1.5rem;
+  }
+
+  .countdown-timer div {
+    width: 7rem;
+    height: 4rem;
+    border-radius: 1rem;
+  }
 }

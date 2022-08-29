@@ -37,27 +37,30 @@ function CountDownTimer(props) {
   return (
     <>
       <div>
-        <p className="number">{timerDays}</p>
-        <p>
-          <small>Days</small>
+        <p className="number">
+          {timerDays}
+          <span>D</span>
         </p>
       </div>
+
       <div>
-        <p className="number">{timerHours}</p>
-        <p>
-          <small>Hours</small>
+        <p className="number">
+          {timerHours}
+          <span>H</span>
         </p>
       </div>
+
       <div>
-        <p className="number">{timerMinutes}</p>
-        <p>
-          <small>Minutes</small>
+        <p className="number">
+          {timerMinutes}
+          <span>M</span>
         </p>
       </div>
+
       <div>
-        <p className="number">{timerSeconds}</p>
-        <p>
-          <small>Seconds</small>
+        <p className="number">
+          {timerSeconds}
+          <span>S</span>
         </p>
       </div>
     </>
