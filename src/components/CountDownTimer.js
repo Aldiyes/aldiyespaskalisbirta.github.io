@@ -11,7 +11,6 @@ function CountDownTimer(props) {
   const startTimer = (prps) => {
     const countdownDate = new Date(`${props.time}`).getTime();
 
-    console.log(props);
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;

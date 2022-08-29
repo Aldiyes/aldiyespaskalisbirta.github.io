@@ -13,7 +13,7 @@ function Pendaftaran() {
       {ITDaysInternalFunGames.map((item) => (
         <section className={`ITDaysRegistrasi ${item.title}`} key={item.id}>
           <Container>
-            <Row className="g-5 d-flex">
+            <Row className="g-5 d-flex flex-column flex-md-row">
               <Col className="left-side">
                 <Row md={7} className="SK">
                   <div className="box box-SK ">

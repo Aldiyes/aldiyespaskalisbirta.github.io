@@ -4,12 +4,6 @@
   padding: 2rem 1rem;
 }
 
-.left-side {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
 .ITDaysRegistrasi img {
   border-radius: 10px;
 }
@@ -22,7 +16,7 @@
   font-size: 2rem;
 }
 .ITDaysRegistrasi .description {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .ITDaysRegistrasi .button-daftar {
@@ -72,4 +66,26 @@
 
 .image img {
   border-radius: 40px;
+}
+
+.ITDaysRegistrasi .container-left-side,
+.ITDaysRegistrasi .container-right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.ITDaysRegistrasi .container-left-side {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 992px) {
+  .ITDaysRegistrasi .description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ITDaysRegistrasi .container-left-side {
+    flex-direction: column;
+  }
 }
