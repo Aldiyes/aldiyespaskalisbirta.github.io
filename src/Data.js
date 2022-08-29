@@ -307,7 +307,7 @@ export const ITDaysInternalQuery100 = [
   {
     id: 1,
     title: "Query100",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLScmFmg8ezRMKJTHKqq5lw8nhpqOlaBByBr1YXG_UgbZIhM2Bg/viewform",
     img: imgTalkShow3,
     syarat: [
       "Khusus untuk mahasiswa Informatika USD",
@@ -325,7 +325,7 @@ export const ITDaysInternalFunGames = [
   {
     id: 2,
     title: "Fun Games",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSfJysOqDdhyZALzLOYhKtn85zZKY13PtJI3ukRIiE3I5ufe4A/viewform",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSe0-5qOehYUb--rEuqe9P7LRgMR3Aso636OAZ0k1u4_xLQLWg/viewform",
     img: imgTalkShow3,
     syarat: [
       "Peserta harus berasal dari program studi informatika (angkatan 20, 21, 22) dengan mengisi G-Form yang akan diberikan",
