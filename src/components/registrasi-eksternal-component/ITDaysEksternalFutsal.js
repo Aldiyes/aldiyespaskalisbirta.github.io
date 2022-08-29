@@ -18,7 +18,7 @@ function Pendaftaran() {
                     <div className="box box-link-pendaftaran d-flex flex-column justify-content-center align-items-center">
                       <h1 className="title pt-4">{item.title}</h1>
                       <div className="image">
-                        <img src={item.img} className="img img-item img-fluid" alt={item.title} />
+                        <img src={item.img} className="img img-item img-fluid w-100 h-100" alt={item.title} />
                       </div>
                       <div className="countdown-timer text-light d-flex justify-content-center">
                         <CountDownTimer time="Oct 16, 2022 00:00:00" />
