@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f59ded8b.css",
-    "main.js": "/static/js/main.4053085f.js",
+    "main.js": "/static/js/main.8ac09628.js",
     "static/media/mobile_legend (2).jpg": "/static/media/mobile_legend (2).93bfde2c9751c1633be2.jpg",
     "static/media/mobile_legend (5).jpg": "/static/media/mobile_legend (5).a31da2e11ade18c38751.jpg",
     "static/media/misa (6).jpg": "/static/media/misa (6).752d976d1bba75a55dd1.jpg",
@@ -49,10 +49,10 @@
     "static/media/logo ML fix.webp": "/static/media/logo ML fix.4c954a2982fd3e2a871a.webp",
     "index.html": "/index.html",
     "main.f59ded8b.css.map": "/static/css/main.f59ded8b.css.map",
-    "main.4053085f.js.map": "/static/js/main.4053085f.js.map"
+    "main.8ac09628.js.map": "/static/js/main.8ac09628.js.map"
   },
   "entrypoints": [
     "static/css/main.f59ded8b.css",
-    "static/js/main.4053085f.js"
+    "static/js/main.8ac09628.js"
   ]
 }
