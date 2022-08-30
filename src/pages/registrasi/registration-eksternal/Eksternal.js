@@ -9,7 +9,7 @@ import "../registrasi.css";
 function Eksternal() {
   return (
     <main>
-      <section className="Eksternal-registration">
+      <section className=" registrasi Eksternal-registration">
         <Container>
           <h1 className="title pb-5">Eksternal</h1>
           <Row xs={1} md={3} className="g-4 justify-content-center">

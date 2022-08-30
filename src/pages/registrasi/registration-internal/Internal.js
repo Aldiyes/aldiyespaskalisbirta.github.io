@@ -9,7 +9,7 @@ import "../registrasi.css";
 function Internal() {
   return (
     <main>
-      <section className="internal-registration">
+      <section className=" registrasi internal-registration">
         <Container>
           <h1 className="title pb-5">Internal</h1>
           <Row xs={1} md={3} className="g-5 justify-content-center">

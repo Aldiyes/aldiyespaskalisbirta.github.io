@@ -36,7 +36,7 @@ function Pendaftaran() {
                       <img src={item.img} className="img img-item img-fluid" alt={item.title} />
                     </div>
                     <div className="countdown-timer text-light d-flex justify-content-center">
-                      <CountDownTimer time="Oct 19, 2022 00:00:00" />
+                      <CountDownTimer time="Sep 20, 2022 22:23:00" />
                     </div>
                     <div className="button-daftar mt-5 mb-5">
                       <a href={item.path} target="_blank" rel="noopener noreferrer" className="btn-daftar">

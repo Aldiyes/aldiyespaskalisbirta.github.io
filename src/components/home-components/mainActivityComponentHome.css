@@ -86,6 +86,16 @@
   margin: 5rem auto;
 }
 
+.main-activity .button-icon {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.main-activity .visually-hidden {
+  font-size: 0.4rem;
+  font-weight: 700;
+}
 @media (min-width: 768px) {
   .main-activity #internal,
   .main-activity #eksternal {
@@ -101,6 +111,10 @@
   }
   .main-activity .btn-see-more {
     margin-top: 5rem;
+  }
+  .main-activity .button-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -121,5 +135,10 @@
 
   .main-activity .btn-see-more {
     margin-top: 3rem;
+  }
+  .main-activity .button-icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
   }
 }

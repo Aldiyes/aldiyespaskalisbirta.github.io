@@ -34,12 +34,12 @@ function MainActivityComponentHome() {
               ))}
             </div>
 
-            <button className="carousel-control-prev" type="button" data-bs-target="#internal" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <button className="button carousel-control-prev" type="button" data-bs-target="#internal" data-bs-slide="prev">
+              <span className="button-icon carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#internal" data-bs-slide="next">
-              <span className="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <button className="button carousel-control-next" type="button" data-bs-target="#internal" data-bs-slide="next">
+              <span className="button-icon carousel-control-next-icon bg-dark" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>
@@ -66,12 +66,12 @@ function MainActivityComponentHome() {
                 </div>
               ))}
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#eksternal" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <button className="button carousel-control-prev" type="button" data-bs-target="#eksternal" data-bs-slide="prev">
+              <span className="button-icon carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#eksternal" data-bs-slide="next">
-              <span className="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <button className="button carousel-control-next" type="button" data-bs-target="#eksternal" data-bs-slide="next">
+              <span className="button-icon carousel-control-next-icon bg-dark" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>

@@ -20,10 +20,12 @@ function Gallery() {
   // modal
   const [show, setShow] = useState(false);
   const [imageShow, setImageShow] = useState();
+  const [titleShow, setTitleShow] = useState();
   const handleClose = () => setShow(false);
-  const handleShow = (props) => {
+  const handleShow = (img, title) => {
     setShow(true);
-    setImageShow(props);
+    setImageShow(img);
+    setTitleShow(title);
   };
 
   return (
@@ -33,12 +35,12 @@ function Gallery() {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 gallery-image active">
           {slice.map((item) => (
             <div className="col" key={item.id}>
-              <img src={item.img} className="img img-item img-fluid" alt={item.title} onClick={handleShow.bind(this, item.img)} />
+              <img src={item.img} className="img img-item img-fluid" alt={item.title} onClick={handleShow.bind(this, item.img, item.title)} />
 
               {/* modal */}
               <Modal show={show} onHide={handleClose} size="lg" centered>
                 <Modal.Header closeButton>
-                  <Modal.Title>{item.title}</Modal.Title>
+                  <Modal.Title>{titleShow}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                   <img src={imageShow} className="img img-item img-fluid" alt={item.title} />

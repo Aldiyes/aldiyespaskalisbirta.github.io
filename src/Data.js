@@ -32,7 +32,7 @@ import imgBlindDate5 from "./images/blind_date (5).jpg";
 import imgBlindDate6 from "./images/blind_date (6).jpg";
 import imgBlindDate7 from "./images/blind_date (7).jpg";
 import imgBlindDate8 from "./images/blind_date (8).jpg";
-import emptyIcon from "./images/empty_icon.png";
+import misa from "./images/misa.jpg";
 import imgFutsal from "./images/futsal.jpg";
 import imgLogo from "./images/logo.png";
 import valorant from "./images/logo valorant fix.jpg";
@@ -217,7 +217,7 @@ export const Images = [
 export const activityInternal = [
   {
     id: 1,
-    img: imgMisa6,
+    img: misa,
     title: "Misa",
     description: "Misa merupakan Perayaan Ekaristi Kudus Agama Katolik, misa menjadi salah satu diantara rangkaian acara IT DAYS serta menjadi acara pembuka seluruh rangkaian dan kegiatan yang akan berlangsung",
     smallDesc: "Misa merupakan Perayaan Ekaristi Kudus Agama Katolik, misa menjadi salah satu diantara rangkaian acara IT DAYS serta menjadi acara pembuka seluruh...",
@@ -259,7 +259,7 @@ export const activityInternal = [
 export const activityEksternal = [
   {
     id: 1,
-    img: imgTalkShow1,
+    img: bandAkustik,
     title: "Band Akustik",
     description:
       "Band Acoustik merupakan kegiatan IT DAYS yang bergerak dibidang music, dimana sebuah kelompok atau yang disebut band akan bertanding untuk menampilkan performa terbaik mereka dalam menampilkan sebuah lagu atau mengcover sebuah lagu dengan karakteristik band itu sendiri.",
@@ -267,21 +267,21 @@ export const activityEksternal = [
   },
   {
     id: 2,
-    img: imgTalkShow1,
+    img: shortMovie,
     title: "Short Movie",
     description: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nauansa kompleks serta tidak dianggap sebagai film utama/panjang. Kegiatan IT DAYS yang satu ini bisa diikuti oleh masyarakat umum.",
     smallDesc: "Short movie merupakan film yang berdurasi pendek, simpel dan memiliki nauansa kompleks serta tidak dianggap sebagai film utama/panjang...",
   },
   {
     id: 3,
-    img: emptyIcon,
+    img: valorant,
     title: "Valorant",
     description: "Valorant adalah sebuah game FPS berbasis PC atau Laptop yang akan mempertandingkan 2 team yang berjumlah 5 orang dalam satu team untuk merebut kemenangan.",
     smallDesc: "Valorant adalah sebuah game FPS berbasis PC atau Laptop yang akan mempertandingkan 2 team yang berjumlah 5 orang dalam satu team...",
   },
   {
     id: 4,
-    img: imgML2,
+    img: mlbb,
     title: "Mobile Legend",
     description: "Mobile Legend atau lebih sering disebut ML adalah sebuah game MOBA berbasis mobile yang akan mempertemukan dua team berjumlah lima orang untuk merebut kemenangan.",
     smallDesc: "Mobile Legend atau lebih sering disebut ML adalah sebuah game MOBA berbasis mobile yang akan mempertemukan dua team berjumlah...",
@@ -303,7 +303,7 @@ export const CompetitionInternal = [
   },
   {
     id: 3,
-    img: imgWebinar3,
+    img: futsal,
     title: "Futsal",
     path: "/ITDaysFutsal",
   },
@@ -371,28 +371,28 @@ export const ITDaysInternalFutsal = [
 export const CompetitionEksternal = [
   {
     id: 1,
-    img: imgTalkShow2,
+    img: bandAkustik,
     title: "Band Akustik",
     path: "/ITDaysBandAkustik",
     time: "Oct 16, 2022 00:00:00",
   },
   {
     id: 2,
-    img: imgBlindDate1,
+    img: shortMovie,
     title: "Short Movie",
     path: "/ITDaysShortMovie",
     time: "Sep 20, 2022 00:00:00",
   },
   {
     id: 3,
-    img: imgML4,
+    img: valorant,
     title: "Valorant",
     path: "/ITDaysValorant",
     time: "Sep 19, 2022 00:00:00",
   },
   {
     id: 4,
-    img: imgMisa1,
+    img: mlbb,
     title: "Mobile Legend",
     path: "/ITDaysMobileLegend",
     time: "Sep 19, 2022 00:00:00",
